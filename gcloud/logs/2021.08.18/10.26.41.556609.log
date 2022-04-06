@@ -1,0 +1,35 @@
+2021-08-18 10:26:41,557 DEBUG    root            Loaded Command Group: ['gcloud', 'ml']
+2021-08-18 10:26:41,563 DEBUG    root            Loaded Command Group: ['gcloud', 'ml', 'speech']
+2021-08-18 10:26:41,651 DEBUG    root            Loaded Command Group: ['gcloud', 'ml', 'speech', 'recognize']
+2021-08-18 10:26:41,654 DEBUG    root            Running [gcloud.ml.speech.recognize] with arguments: [--audio-channel-count: "2", --language-code: "en-US", --separate-channel-recognition: "True", AUDIO: "/Users/loishi/Downloads/insights.flac"]
+2021-08-18 10:26:41,907 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2021-08-18 10:26:42,064 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-08-18 10:26:42,399 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-08-18 10:26:42,586 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): speech.googleapis.com:443
+2021-08-18 10:26:57,173 DEBUG    urllib3.connectionpool https://speech.googleapis.com:443 "POST /v1/speech:recognize?alt=json HTTP/1.1" 200 None
+2021-08-18 10:26:57,177 INFO     root            Display format: "json"
+2021-08-18 10:26:57,178 INFO     ___FILE_ONLY___ {
+  "results": [
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9697142,
+          "transcript": "alright so here's the deal the code you send me the code that is showing is actually for transmission control power module what that means is so for a transmission there's a separate module the controls itself like it's brain of the transmission that can be faulty that shit is expensive to buy an expensive to replace because he needs to drop down the whole engine in the whole transmission not shift expensive yes another reason why I can be throwing that code is that the power supply like the wires going from the generator can be faulty can be shorted or open circuit that's also expensive because once you need to drop down the engine and transmission to find it and fix it that's a lot of labor hours and not so much as Parts but labor-hours yes a lot"
+        }
+      ],
+      "channelTag": 1
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.9697142,
+          "transcript": "alright so here's the deal the code you send me the code that is showing is actually for transmission control power module what that means is so for a transmission there's a separate module the controls itself like it's brain of the transmission that can be faulty that shit is expensive to buy an expensive to replace because he needs to drop down the whole engine in the whole transmission not shift expensive yes another reason why I can be throwing that code is that the power supply like the wires going from the generator can be faulty can be shorted or open circuit that's also expensive because once you need to drop down the engine and transmission to find it and fix it that's a lot of labor hours and not so much as Parts but labor-hours yes a lot"
+        }
+      ],
+      "channelTag": 2
+    }
+  ],
+  "totalBilledTime": "120s"
+}
+2021-08-18 10:26:57,179 INFO     ___FILE_ONLY___ 
+

@@ -1,0 +1,414 @@
+23/10/20 (12:02:07) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2790, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:03:15) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:13) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:15) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:16) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:17) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:18) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:19) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:19) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:20) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:21) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:21) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:22) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:23) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:23) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:05:25) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:15:26) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:16:29) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:17:20) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:18:02) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:18:13) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:18:14) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:18:14) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:18:15) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:18:16) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:18:17) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:18:17) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:18:18) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:18:19) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:18:19) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+23/10/20 (12:18:20) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+24/10/20 (09:11:19) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2794, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+26/10/20 (14:18:29) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2814, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+01/11/20 (21:04:24) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2820, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+03/11/20 (13:51:14) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2820, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+03/11/20 (13:54:21) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2820, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+03/11/20 (13:54:22) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2820, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+03/11/20 (13:54:23) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2820, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+03/11/20 (13:54:23) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2820, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+03/11/20 (13:56:09) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2820, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+03/11/20 (13:58:51) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2820, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+03/11/20 (13:58:52) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2820, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+04/11/20 (14:05:36) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2827, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+14/12/20 (23:12:48) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2827, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+17/12/20 (19:35:47) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2827, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
+17/12/20 (19:36:04) | ERROR: Command 'coretemp' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2827, in _collect_temps
+    cores = [max(0, int(x)) for x in subprocess.check_output("coretemp", text=True).split()]
+  File "/usr/local/Cellar/python@3.8/3.8.6_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/local/Cellar/python@3.8/3.8.6_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'coretemp' returned non-zero exit status 1.
