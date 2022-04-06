@@ -1,2 +1,3 @@
 # dotfiles
-Here is my dotfiles of vim, alacritty, tmux, and so on!
+
+This repository contains [loishi](https://github.com/loishi)'s configuration files for Neovim, tmux, Alacritty, and so on!
