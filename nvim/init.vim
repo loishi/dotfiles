@@ -18,21 +18,21 @@ let g:copilot_filetypes = { 'xml': v:false, }
 imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
 let g:copilot_no_tab_map = v:true
 
+colorscheme base16-tomorrow-night
+hi! Normal ctermbg=none ctermfg=none guifg=none guibg=none
+hi! LineNr ctermbg=none ctermfg=none guifg=none guibg=none
 
 set completeopt=menu,menuone,noselect
-
 :set number
 :set relativenumber
 :set autoindent
 :set mouse=a
-:set termguicolors
 :set smartindent
+:set termguicolors
 :set tabstop=2
 :set shiftwidth=2
 :set softtabstop=2
 :set expandtab
-
-:colorscheme base16-tomorrow-night
 
 inoremap {	{}<Left>
 inoremap {<CR>  {<CR>}<Esc>O

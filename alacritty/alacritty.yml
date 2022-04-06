@@ -1,3 +1,6 @@
+env:
+  TERM: xterm-256color 
+
 colors:
   primary:
     background: '0x1d1f21'
@@ -30,21 +33,21 @@ colors:
 draw_bold_text_with_bright_colors: false
 
 font:
-  size: 16
+  size: 18
   normal:
-    family: HackGen35Nerd Console
+    family: HackGenNerd Console
 
   bold:
-    family: HackGen35Nerd Console
+    family: HackGenNerd Console
 
   italic:
-    family: HackGen35Nerd Console
+    family: HackGenNerd Console
 
   use_thin_strokes: true
 
 window:
   decorations: none
-  opacity: 0.75
+  opacity: 0.8
   startup_mode: Maximized 
 
 key_bindings:
