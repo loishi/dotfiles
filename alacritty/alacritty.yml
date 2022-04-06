@@ -1,17 +1,12 @@
-# Base16 Tomorrow Night - alacritty color config
-# Chris Kempson (http://chriskempson.com)
 colors:
-  # Default colors
   primary:
     background: '0x1d1f21'
     foreground: '0xc5c8c6'
 
-  # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
     text: '0x1d1f21'
     cursor: '0xc5c8c6'
 
-  # Normal colors
   normal:
     black:   '0x1d1f21'
     red:     '0xcc6666'
@@ -22,7 +17,6 @@ colors:
     cyan:    '0x8abeb7'
     white:   '0xc5c8c6'
 
-  # Bright colors
   bright:
     black:   '0x969896'
     red:     '0xde935f'
@@ -36,26 +30,22 @@ colors:
 draw_bold_text_with_bright_colors: false
 
 font:
+  size: 16
   normal:
-    family: 'Hack Nerd Font'
-    style: Regular
+    family: HackGen35Nerd Console
 
   bold:
-    family: 'Hack Nerd Font'
-    style: Bold
+    family: HackGen35Nerd Console
 
   italic:
-    family: 'Hack Nerd Font' 
-    style: Italic
+    family: HackGen35Nerd Console
 
-  bold_italic:
-    family: 'Hack Nerd Font'
-    style: Bold Italic
-
-  size: 16
+  use_thin_strokes: true
 
 window:
   decorations: none
+  opacity: 0.75
+  startup_mode: Maximized 
 
 key_bindings:
   - { key: N, mods: Command, action: SpawnNewInstance }
