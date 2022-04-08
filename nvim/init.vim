@@ -4,12 +4,12 @@ Jetpack 'neovim/nvim-lspconfig'
 Jetpack 'itchyny/lightline.vim'
 Jetpack 'RRethy/nvim-base16'
 Jetpack 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Jetpack 'github/copilot.vim'
 Jetpack 'sbdchd/neoformat'
 Jetpack 'hrsh7th/nvim-cmp'
 Jetpack 'hrsh7th/cmp-nvim-lsp'
 Jetpack 'L3MON4D3/LuaSnip'
 Jetpack 'saadparwaiz1/cmp_luasnip'
+Jetpack 'github/copilot.vim'
 
 call jetpack#end()
 
@@ -26,13 +26,13 @@ set softtabstop=2
 set expandtab
 
 let g:jetpack#optimization=2
-let g:copilot_filetypes = { 'xml': v:false, }
-imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
-let g:copilot_no_tab_map = v:true
 
 colorscheme base16-tomorrow-night
 hi! Normal ctermbg=none ctermfg=none guifg=none guibg=none
 hi! LineNr ctermbg=none ctermfg=none guifg=none guibg=none
+
+imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
+let g:copilot_no_tab_map = v:true
 
 inoremap {	{}<Left>
 inoremap {<CR>  {<CR>}<Esc>O
@@ -51,13 +51,12 @@ inoremap <expr> ' strpart(getline('.'), col('.')-1, 1) == "\'" ? "\<Right>" : "\
 inoremap <expr> " strpart(getline('.'), col('.')-1, 1) == "\"" ? "\<Right>" : "\"\"\<Left>"
 
 lua <<EOF
--- Add additional capabilities supported by nvim-cmp
+
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
 
 local lspconfig = require('lspconfig')
 
--- Enable some language servers with the additional completion capabilities offered by nvim-cmp
 local servers = { 'clangd', 'rust_analyzer' }
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
@@ -108,6 +107,7 @@ cmp.setup {
     end,
   },
   sources = {
+    { name = 'copilot' },
     { name = 'nvim_lsp' },
     { name = 'luasnip' },
   },
