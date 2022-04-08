@@ -28,8 +28,8 @@ set expandtab
 let g:jetpack#optimization=2
 
 colorscheme base16-tomorrow-night
-hi! Normal ctermbg=none ctermfg=none guifg=none guibg=none
-hi! LineNr ctermbg=none ctermfg=none guifg=none guibg=none
+" hi! Normal ctermbg=none ctermfg=none guifg=none guibg=none
+" hi! LineNr ctermbg=none ctermfg=none guifg=none guibg=none
 
 imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
 let g:copilot_no_tab_map = v:true
