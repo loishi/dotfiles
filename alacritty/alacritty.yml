@@ -33,15 +33,15 @@ colors:
 draw_bold_text_with_bright_colors: false
 
 font:
-  size: 18
+  size: 16
   normal:
-    family: HackGenNerd Console
+    family: Hack
 
   bold:
-    family: HackGenNerd Console
+    family: Hack
 
   italic:
-    family: HackGenNerd Console
+    family: Hack
 
   use_thin_strokes: true
 

@@ -14,6 +14,7 @@ alias bu "sudo tlmgr update -all -self --reinstall-forcibly-removed && brew upda
 alias gpp "g++ main.cc && ./a.out"   
 alias aud "sudo launchctl stop com.apple.audio.coreaudiod && sudo launchctl start com.apple.audio.coreaudiod"  
 alias acs "acc s -s -- -y"
+alias dt "set time_stamp $(date +%Y-%m-%d\ %H:%M:%S)-07:00 && sed -ie "s/date/$time_stamp/" main.cc"
 
 gpgconf --launch gpg-agent
 starship init fish | source
