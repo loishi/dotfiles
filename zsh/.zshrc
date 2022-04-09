@@ -5,6 +5,7 @@ export INFOPATH=/usr/local/texlive/2022/texmf-dist/doc/info:${INFOPATH}
 export GPG_TTY=$(tty)
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
+export XDG_CONFIG_HOME=~/.config
 
 alias ssh "env TERM=xterm ssh"
 alias ll "exa -al"
