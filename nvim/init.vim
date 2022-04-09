@@ -50,6 +50,7 @@ inoremap " ""<Left>
 inoremap <expr> ' strpart(getline('.'), col('.')-1, 1) == "\'" ? "\<Right>" : "\'\'\<Left>"
 inoremap <expr> " strpart(getline('.'), col('.')-1, 1) == "\"" ? "\<Right>" : "\"\"\<Left>"
 
+
 lua <<EOF
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
@@ -107,7 +108,6 @@ cmp.setup {
     end,
   },
   sources = {
-    { name = 'copilot' },
     { name = 'nvim_lsp' },
     { name = 'luasnip' },
   },
