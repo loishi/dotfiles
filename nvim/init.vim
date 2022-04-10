@@ -10,6 +10,8 @@ Jetpack 'hrsh7th/cmp-nvim-lsp'
 Jetpack 'L3MON4D3/LuaSnip'
 Jetpack 'saadparwaiz1/cmp_luasnip'
 Jetpack 'github/copilot.vim'
+Jetpack 'kyazdani42/nvim-web-devicons'
+Jetpack 'kyazdani42/nvim-tree.lua'
 
 call jetpack#end()
 
@@ -52,6 +54,7 @@ inoremap <expr> " strpart(getline('.'), col('.')-1, 1) == "\"" ? "\<Right>" : "\
 
 
 lua <<EOF
+require'nvim-tree'.setup()
 
 require'nvim-treesitter.configs'.setup {
   highlight = {
