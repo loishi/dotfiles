@@ -7,10 +7,14 @@ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export XDG_CONFIG_HOME=~/.config
 
+alias clang="clang -fuse-ld=mold"
+alias clang++ = "clang++ -fuse-ld=mold"
+alias gcc = "gcc -fuse-ld=mold"
+alias g++ = "g++ -fuse-ld=mold"
 alias ssh="env TERM=xterm ssh"
 alias ll="exa -al"
 alias nv="nvim"
-alias bu="sudo tlmgr update -all -self --reinstall-forcibly-removed && brew update && brew upgrade && brew upgrade --cask && brew cleanup && pip list -o --format=freeze | rg -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U pip && rustup update stable"
+alias bu="sudo tlmgr update -all -self --reinstall-forcibly-removed && brew update && brew upgrade && brew upgrade --cask && pip list -o --format=freeze | rg -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U pip && rustup update stable"
 alias gpp="g++ main.cc && ./a.out"   
 alias aud="sudo launchctl stop com.apple.audio.coreaudiod && sudo launchctl start com.apple.audio.coreaudiod"  
 alias acs="acc s -s -- -y"
