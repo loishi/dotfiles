@@ -7,10 +7,7 @@ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export XDG_CONFIG_HOME=~/.config
 
-alias clang="clang -fuse-ld=mold"
-alias clang++ = "clang++ -fuse-ld=mold"
-alias gcc = "gcc -fuse-ld=mold"
-alias g++ = "g++ -fuse-ld=mold"
+alias ..="cd .."
 alias ssh="env TERM=xterm ssh"
 alias ll="exa -al"
 alias nv="nvim"
