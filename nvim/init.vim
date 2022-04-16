@@ -1,7 +1,6 @@
 call jetpack#begin()
 
 Jetpack 'neovim/nvim-lspconfig'
-Jetpack 'itchyny/lightline.vim'
 Jetpack 'RRethy/nvim-base16'
 Jetpack 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Jetpack 'sbdchd/neoformat'
@@ -12,6 +11,13 @@ Jetpack 'saadparwaiz1/cmp_luasnip'
 Jetpack 'github/copilot.vim'
 Jetpack 'kyazdani42/nvim-web-devicons'
 Jetpack 'kyazdani42/nvim-tree.lua'
+Jetpack 'akinsho/bufferline.nvim'
+Jetpack 'nvim-lualine/lualine.nvim'
+Jetpack 'lewis6991/gitsigns.nvim'
+Jetpack 'lukas-reineke/indent-blankline.nvim'
+Jetpack 'windwp/nvim-autopairs'
+Jetpack 'nvim-lua/plenary.nvim'
+Jetpack 'nvim-telescope/telescope.nvim'
 
 call jetpack#end()
 
@@ -36,26 +42,18 @@ colorscheme base16-tomorrow-night
 imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
 let g:copilot_no_tab_map = v:true
 
-inoremap {	{}<Left>
-inoremap {<CR>  {<CR>}<Esc>O
-inoremap {{ {
-inoremap {} {}
-
-inoremap (  ()<Left>
-inoremap () ()
-inoremap <expr> )  strpart(getline('.'), col('.')-1, 1) == ")" ? "\<Right>" : ")"
-
-inoremap [	[]<Left>
-
-inoremap ' ''<Left>
-inoremap " ""<Left>
-inoremap <expr> ' strpart(getline('.'), col('.')-1, 1) == "\'" ? "\<Right>" : "\'\'\<Left>"
-inoremap <expr> " strpart(getline('.'), col('.')-1, 1) == "\"" ? "\<Right>" : "\"\"\<Left>"
-
-
 lua <<EOF
-require'nvim-tree'.setup()
+vim.opt.list = true
+vim.opt.listchars:append("eol:↴")
 
+require("indent_blankline").setup {
+  show_end_of_line = true,
+}
+require('nvim-autopairs').setup{}
+require('nvim-tree').setup()
+require("bufferline").setup{}
+require('gitsigns').setup()
+require('lualine').setup{ options = { theme = 'horizon'},}
 require'nvim-treesitter.configs'.setup {
   highlight = {
     enable = true,
