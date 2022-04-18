@@ -7,6 +7,7 @@ export GPG_TTY=$(tty)
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export XDG_CONFIG_HOME=~/.config
+export JDTLS_HOME=~/.local/share/nvim/lsp_servers/jdtls
 
 alias ..="cd .."
 alias ssh="env TERM=xterm ssh"

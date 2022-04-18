@@ -18,6 +18,8 @@ Jetpack 'lukas-reineke/indent-blankline.nvim'
 Jetpack 'windwp/nvim-autopairs'
 Jetpack 'nvim-lua/plenary.nvim'
 Jetpack 'nvim-telescope/telescope.nvim'
+Jetpack 'williamboman/nvim-lsp-installer'
+Jetpack 'simrat39/rust-tools.nvim'
 
 call jetpack#end()
 
@@ -64,18 +66,35 @@ require'nvim-treesitter.configs'.setup {
   }
 }
 
+local lsp_installer = require "nvim-lsp-installer"
+local servers = {'vimls', 'sumneko_lua', 'clangd', 'rust_analyzer', 'jdtls', 'pyright' }
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
 
+for _, name in pairs(servers) do
+  local server_is_found, server = lsp_installer.get_server(name)
+  if server_is_found and not server:is_installed() then
+    print("Installing " .. name)
+    server:install()
+  end
+end
+
+lsp_installer.on_server_ready(function(server)
+  local opts = { capabilities = capabilities,}
+  if server.name == "rust_analyzer" then
+    require("rust-tools").setup {
+      server = vim.tbl_deep_extend("force", server:get_default_options(), opts),
+    }
+      server:attach_buffers()
+      require("rust-tools").start_standalone_if_required()
+  else
+    server:setup(opts)
+  end
+end)
+
+
 local lspconfig = require('lspconfig')
 
-local servers = { 'clangd', 'rust_analyzer', 'pyright' }
-for _, lsp in ipairs(servers) do
-  lspconfig[lsp].setup {
-    -- on_attach = my_custom_on_attach,
-    capabilities = capabilities,
-  }
-end
 
 -- luasnip setup
 local luasnip = require 'luasnip'
