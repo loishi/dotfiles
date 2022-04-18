@@ -1,7 +1,7 @@
 local wezterm = require 'wezterm';
 
 return {
-  font = wezterm.font_with_fallback({"Hack", "HackGenNerd Console"}),
+  font = wezterm.font_with_fallback({"Hack Nerd Font", "HackGenNerd Console"}),
   window_background_opacity = 0.7,
   window_decorations = "RESIZE",
   enable_tab_bar = false,

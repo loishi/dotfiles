@@ -35,20 +35,22 @@ draw_bold_text_with_bright_colors: false
 font:
   size: 16
   normal:
-    family: Hack
+    family: Hack Nerd Font
 
   bold:
-    family: Hack
+    family: Hack Nerd Font
 
   italic:
-    family: Hack
+    family: Hack Nerd Font
 
   use_thin_strokes: true
 
 window:
   decorations: none
-  opacity: 0.8
   startup_mode: Maximized 
+  padding:
+    x: 6
+    y: 0
 
 key_bindings:
   - { key: N, mods: Command, action: SpawnNewInstance }

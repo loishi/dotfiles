@@ -46,11 +46,8 @@ let g:copilot_no_tab_map = v:true
 
 lua <<EOF
 vim.opt.list = true
-vim.opt.listchars:append("eol:↴")
 
-require("indent_blankline").setup {
-  show_end_of_line = true,
-}
+require("indent_blankline").setup() 
 require('nvim-autopairs').setup{}
 require('nvim-tree').setup()
 require("bufferline").setup{}
