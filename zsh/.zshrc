@@ -8,14 +8,15 @@ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export XDG_CONFIG_HOME=~/.config
 export JDTLS_HOME=~/.local/share/nvim/lsp_servers/jdtls
+export RIPGREP_CONFIG_PATH=~/.config/ripgrep/ripgreprc
 
 alias ..="cd .."
 alias ssh="env TERM=xterm ssh"
 alias ll="exa -al"
 alias nv="nvim"
-alias bu="sudo tlmgr update -all -self --reinstall-forcibly-removed && brew update && brew upgrade && brew upgrade --cask && pip list -o --format=freeze | rg -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U pip && rustup update stable"
-alias gpp="g++ main.cc && ./a.out"   
-alias aud="sudo launchctl stop com.apple.audio.coreaudiod && sudo launchctl start com.apple.audio.coreaudiod"  
+alias bu="sudo tlmgr update -all -self --reinstall-forcibly-removed || true && brew update && brew upgrade && brew upgrade --cask && pip3 list -o --format=freeze | rg -v '^\-e' | cut -d = -f 1 | xargs -n1 pip3 install -U pip | rg -v 'DEPRECATION|satisfied' || true && rustup update stable"
+alias gpp="g++ main.cc && ./a.out"
+alias aud="sudo launchctl stop com.apple.audio.coreaudiod && sudo launchctl start com.apple.audio.coreaudiod"
 alias acs="acc s -s -- -y"
 alias dt='time_stamp=$(date +%Y-%m-%d\ %H:%M:%S)-07:00 && sed -i "" "s/date/$time_stamp/" main.cc'
 

@@ -7,7 +7,7 @@ return {
   enable_tab_bar = false,
   text_background_opacity = 0.45,
   color_scheme = "Tomorrow Night",
-  font_size = 15.6,
+  font_size = 15;
   window_close_confirmation = "NeverPrompt",
   window_padding = {
     top = 0,

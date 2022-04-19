@@ -13,7 +13,6 @@ Jetpack 'kyazdani42/nvim-web-devicons'
 Jetpack 'kyazdani42/nvim-tree.lua'
 Jetpack 'akinsho/bufferline.nvim'
 Jetpack 'nvim-lualine/lualine.nvim'
-Jetpack 'lewis6991/gitsigns.nvim'
 Jetpack 'lukas-reineke/indent-blankline.nvim'
 Jetpack 'windwp/nvim-autopairs'
 Jetpack 'nvim-lua/plenary.nvim'
@@ -34,6 +33,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set clipboard=unnamedplus
 
 let g:jetpack#optimization=2
 
@@ -51,7 +51,6 @@ require("indent_blankline").setup()
 require('nvim-autopairs').setup{}
 require('nvim-tree').setup()
 require("bufferline").setup{}
-require('gitsigns').setup()
 require('lualine').setup{ options = { theme = 'horizon'},}
 require'nvim-treesitter.configs'.setup {
   highlight = {
