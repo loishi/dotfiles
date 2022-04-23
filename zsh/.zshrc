@@ -9,6 +9,7 @@ export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export XDG_CONFIG_HOME=~/.config
 export JDTLS_HOME=~/.local/share/nvim/lsp_servers/jdtls
 export RIPGREP_CONFIG_PATH=~/.config/ripgrep/ripgreprc
+export EDITOR=nvim
 
 alias ..="cd .."
 alias ssh="env TERM=xterm ssh"
@@ -18,7 +19,8 @@ alias bu="sudo tlmgr update -all -self --reinstall-forcibly-removed || true && b
 alias gpp="g++ main.cc && ./a.out"
 alias aud="sudo launchctl stop com.apple.audio.coreaudiod && sudo launchctl start com.apple.audio.coreaudiod"
 alias acs="acc s -s -- -y"
-alias dt='time_stamp=$(date +%Y-%m-%d\ %H:%M:%S)-07:00 && sed -i "" "s/date/$time_stamp/" main.cc'
+alias dt='time_stamp=$(date +%Y-%m-%d\ %H:%M:%S)-07:00 && sed -i "" "s/date/$time_stamp/"'
+alias cac="cargo compete"
 
 gpgconf --launch gpg-agent
 eval "$(starship init zsh)"

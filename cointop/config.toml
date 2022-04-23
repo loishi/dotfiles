@@ -1,8 +1,9 @@
 currency = "USD"
 default_view = ""
 api = "coingecko"
+default_chart_range = "3D"
 colorscheme = "cointop"
-refresh_rate = 60
+refresh_rate = 30 
 
 [shortcuts]
   "$" = "last_page"
