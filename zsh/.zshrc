@@ -19,7 +19,7 @@ alias bu="sudo tlmgr update -all -self --reinstall-forcibly-removed || true && b
 alias gpp="g++ main.cc && ./a.out"
 alias aud="sudo launchctl stop com.apple.audio.coreaudiod && sudo launchctl start com.apple.audio.coreaudiod"
 alias acs="acc s -s -- -y"
-alias dt='time_stamp=$(date +%Y-%m-%d\ %H:%M:%S)\ -07:00 && sed -i "" "s/date/$time_stamp/"'
+alias dt='time_stamp=$(date +%Y-%m-%d\ %H:%M:%S-07:00) && sed -i "" "s/date/$time_stamp/"'
 alias cac="cargo compete"
 
 gpgconf --launch gpg-agent
