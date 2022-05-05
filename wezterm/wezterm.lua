@@ -2,10 +2,10 @@ local wezterm = require 'wezterm';
 
 return {
   font = wezterm.font_with_fallback({"Hack Nerd Font", "HackGenNerd Console"}),
-  window_background_opacity = 0.7,
+  window_background_opacity = 0.8,
   window_decorations = "RESIZE",
   enable_tab_bar = false,
-  text_background_opacity = 0.45,
+  text_background_opacity = 0.2,
   color_scheme = "Tomorrow Night",
   font_size = 15;
   window_close_confirmation = "NeverPrompt",
