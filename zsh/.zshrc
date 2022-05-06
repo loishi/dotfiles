@@ -1,6 +1,7 @@
 export PATH=/usr/local/texlive/2022/bin/x86_64-darwin:${PATH}
-export PATH=/usr/local/sbin:$PATH
+export PATH=/usr/local/sbin:${PATH}
 export PATH=$HOME/.cargo/bin:${PATH}
+export PATH=$HOME/.poetry/env:${PATH}
 export MANPATH=/usr/local/texlive/2022/texmf-dist/doc/man:${MANPATH}
 export INFOPATH=/usr/local/texlive/2022/texmf-dist/doc/info:${INFOPATH}
 export GPG_TTY=$(tty)
