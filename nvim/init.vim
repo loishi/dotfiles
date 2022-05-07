@@ -12,13 +12,17 @@ Jetpack 'github/copilot.vim'
 Jetpack 'kyazdani42/nvim-web-devicons'
 Jetpack 'kyazdani42/nvim-tree.lua'
 Jetpack 'akinsho/bufferline.nvim'
-Jetpack 'nvim-lualine/lualine.nvim'
+Jetpack 'feline-nvim/feline.nvim'
 Jetpack 'lukas-reineke/indent-blankline.nvim'
 Jetpack 'windwp/nvim-autopairs'
 Jetpack 'nvim-lua/plenary.nvim'
 Jetpack 'nvim-telescope/telescope.nvim'
 Jetpack 'williamboman/nvim-lsp-installer'
 Jetpack 'simrat39/rust-tools.nvim'
+Jetpack 'olimorris/onedarkpro.nvim'
+Jetpack 'RRethy/nvim-base16'
+Jetpack 'lewis6991/gitsigns.nvim'
+
 
 call jetpack#end()
 
@@ -37,21 +41,42 @@ set clipboard=unnamedplus
 
 let g:jetpack#optimization=2
 
-colorscheme base16-tomorrow-night
+colorscheme onedarkpro
 " hi! Normal ctermbg=none ctermfg=none guifg=none guibg=none
 " hi! LineNr ctermbg=none ctermfg=none guifg=none guibg=none
 
 imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
 let g:copilot_no_tab_map = v:true
 
-lua <<EOF
-vim.opt.list = true
+lua << EOF
+require('onedarkpro').setup({
+  colors = {
+      bg = "#282c34",
+      fg = "#bbc2cf",
+      red = "#ff6c6b",
+      orange = "#da8548",
+      yellow = "#ECBE7B",
+      green = "#98be65",
+      cyan = "#46D9FF",
+      blue = "#51afef",
+      purple = "#c678dd",
+      white = "#efefef",
+      black = "#282c34",
+      gray = "#3f444a",
+      highlight = "#51afef",
+    },
+})
+vim.o.background = "dark"
+require('onedarkpro').load()
 
-require("indent_blankline").setup() 
+
+vim.opt.list = true
+require('gitsigns').setup()
+require('indent_blankline').setup()
 require('nvim-autopairs').setup{}
 require('nvim-tree').setup()
-require("bufferline").setup{}
-require('lualine').setup{ options = { theme = 'horizon'},}
+require('bufferline').setup{}
+require('feline').setup()
 require'nvim-treesitter.configs'.setup {
   highlight = {
     enable = true,
