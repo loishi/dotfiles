@@ -23,7 +23,6 @@ Jetpack 'olimorris/onedarkpro.nvim'
 Jetpack 'RRethy/nvim-base16'
 Jetpack 'lewis6991/gitsigns.nvim'
 
-
 call jetpack#end()
 
 set completeopt=menu,menuone,noselect
