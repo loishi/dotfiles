@@ -89,7 +89,10 @@ require'nvim-treesitter.configs'.setup {
 local lsp_installer = require "nvim-lsp-installer"
 local servers = {'vimls', 'sumneko_lua', 'clangd', 'rust_analyzer', 'jdtls', 'pyright' }
 local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
+require('lspconfig')[servers].setup {
+    capabilities = capabilities
+  }
+
 
 for _, name in pairs(servers) do
   local server_is_found, server = lsp_installer.get_server(name)
