@@ -1,9 +1,9 @@
-export PATH=/usr/local/texlive/2022/bin/x86_64-darwin:${PATH}
+export PATH=/usr/local/texlive/2023/bin/x86_64-darwin:${PATH}
 export PATH=/usr/local/sbin:${PATH}
 export PATH=$HOME/.cargo/bin:${PATH}
 export PATH=$HOME/.poetry/env:${PATH}
-export MANPATH=/usr/local/texlive/2022/texmf-dist/doc/man:${MANPATH}
-export INFOPATH=/usr/local/texlive/2022/texmf-dist/doc/info:${INFOPATH}
+export MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man:${MANPATH}
+export INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info:${INFOPATH}
 export GPG_TTY=$(tty)
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
@@ -16,7 +16,7 @@ alias ..="cd .."
 alias ssh="env TERM=xterm ssh"
 alias ll="exa -al"
 alias nv="nvim"
-alias bu="aud && sudo tlmgr update -all -self --reinstall-forcibly-removed || true && brew update || true && brew upgrade  || true && brew upgrade --cask  || true && brew upgrade --cask wez/wezterm/wezterm-nightly --no-quarantine --greedy-latest  || true && brew cleanup  || true && tldr -u ||true && sudo -H pip-review --auto  || true && rustup update stable"
+alias bu="aud && sudo tlmgr update -all -self --reinstall-forcibly-removed || true && brew update || true && brew upgrade || true && brew upgrade --cask || true && brew cleanup || true && tldr -u || true && sudo -H pip-review --auto || true && rustup update stable"
 alias gpp="g++ main.cc && ./a.out"
 alias aud="sudo launchctl stop com.apple.audio.coreaudiod && sudo launchctl start com.apple.audio.coreaudiod"
 alias acs="acc s -s -- -y"
