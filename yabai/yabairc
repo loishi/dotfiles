@@ -41,6 +41,7 @@ yabai -m config right_padding                08
 yabai -m config window_gap                   06
 
 yabai -m rule --add app="^System Preferences$" manage=off
+yabai -m rule --add app="^SPSS Statistics$" manage=off
 yabai -m rule --add app="Authy Desktop" manage=off
 yabai -m rule --add app="Genymotion*" manage=off
 yabai -m rule --add app="Karabiner-Elements*" manage=off
