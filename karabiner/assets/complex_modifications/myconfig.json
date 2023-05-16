@@ -1,0 +1,95 @@
+{
+  "title": "For Japanese (Loishi version)",
+  "rules": [
+    {
+      "description": "コマンドキーを単体で押したときに en, ja を送信する。(左コマンドキーはen、右コマンドキーはja)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_command",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 100
+          },
+          "to": [
+            {
+              "key_code": "left_command",
+              "lazy": true
+            }
+          ],
+          "to_if_held_down": [
+            {
+              "key_code": "left_command"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "select_input_source": {
+                "input_source_id": "com.apple.keylayout.USExtended"
+              }
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_command",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 100
+          },
+          "to": [
+            {
+              "key_code": "right_command",
+              "lazy": true
+            }
+          ],
+          "to_if_held_down": [
+            {
+              "key_code": "right_command"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "select_input_source": {
+                "input_source_id": "com.apple.inputmethod.Kotoeri.RomajiTyping.Japanese"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "escキーを押したときに、英数キーも送信する（vim用）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "escape"
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            },
+            {
+              "select_input_source": {
+                "input_source_id": "com.apple.keylayout.USExtended"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
