@@ -18,7 +18,7 @@
                 },
                 "rules": [
                     {
-                        "description": "コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな） (rev 3)",
+                        "description": "コマンドキーを単体で押したときに en, ja を送信する。(左コマンドキーはen、右コマンドキーはja)",
                         "manipulators": [
                             {
                                 "from": {
@@ -40,7 +40,9 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "japanese_eisuu"
+                                        "select_input_source": {
+                                            "input_source_id": "com.apple.keylayout.USExtended"
+                                        }
                                     }
                                 ],
                                 "to_if_held_down": [
@@ -70,7 +72,9 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "japanese_kana"
+                                        "select_input_source": {
+                                            "input_source_id": "com.apple.inputmethod.Kotoeri.RomajiTyping.Japanese"
+                                        }
                                     }
                                 ],
                                 "to_if_held_down": [
@@ -94,7 +98,9 @@
                                         "key_code": "escape"
                                     },
                                     {
-                                        "key_code": "japanese_eisuu"
+                                        "select_input_source": {
+                                            "input_source_id": "com.apple.keylayout.USExtended"
+                                        }
                                     }
                                 ],
                                 "type": "basic"
