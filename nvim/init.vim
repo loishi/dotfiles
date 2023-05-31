@@ -8,7 +8,6 @@ Jetpack 'hrsh7th/nvim-cmp'
 Jetpack 'hrsh7th/cmp-nvim-lsp'
 Jetpack 'L3MON4D3/LuaSnip'
 Jetpack 'saadparwaiz1/cmp_luasnip'
-Jetpack 'github/copilot.vim'
 Jetpack 'kyazdani42/nvim-web-devicons'
 Jetpack 'kyazdani42/nvim-tree.lua'
 Jetpack 'akinsho/bufferline.nvim'
@@ -22,6 +21,7 @@ Jetpack 'simrat39/rust-tools.nvim'
 Jetpack 'olimorris/onedarkpro.nvim'
 Jetpack 'RRethy/nvim-base16'
 Jetpack 'lewis6991/gitsigns.nvim'
+Jetpack 'williamboman/mason.nvim'
 
 call jetpack#end()
 
@@ -40,12 +40,9 @@ set clipboard=unnamedplus
 
 let g:jetpack#optimization=2
 
-colorscheme onedarkpro
+colorscheme onedark
 " hi! Normal ctermbg=none ctermfg=none guifg=none guibg=none
 " hi! LineNr ctermbg=none ctermfg=none guifg=none guibg=none
-
-imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
-let g:copilot_no_tab_map = v:true
 
 lua << EOF
 require('onedarkpro').setup({
@@ -76,6 +73,7 @@ require('nvim-autopairs').setup{}
 require('nvim-tree').setup()
 require('bufferline').setup{}
 require('feline').setup()
+require("mason").setup()
 require'nvim-treesitter.configs'.setup {
   highlight = {
     enable = true,
@@ -85,36 +83,6 @@ require'nvim-treesitter.configs'.setup {
     enable = true
   }
 }
-
-local lsp_installer = require "nvim-lsp-installer"
-local servers = {'vimls', 'sumneko_lua', 'clangd', 'rust_analyzer', 'jdtls', 'pyright' }
-local capabilities = vim.lsp.protocol.make_client_capabilities()
-require('lspconfig')[servers].setup {
-    capabilities = capabilities
-  }
-
-
-for _, name in pairs(servers) do
-  local server_is_found, server = lsp_installer.get_server(name)
-  if server_is_found and not server:is_installed() then
-    print("Installing " .. name)
-    server:install()
-  end
-end
-
-lsp_installer.on_server_ready(function(server)
-  local opts = { capabilities = capabilities,}
-  if server.name == "rust_analyzer" then
-    require("rust-tools").setup {
-      server = vim.tbl_deep_extend("force", server:get_default_options(), opts),
-    }
-      server:attach_buffers()
-      require("rust-tools").start_standalone_if_required()
-  else
-    server:setup(opts)
-  end
-end)
-
 
 local lspconfig = require('lspconfig')
 
