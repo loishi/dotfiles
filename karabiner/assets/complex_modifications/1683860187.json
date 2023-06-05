@@ -30,8 +30,9 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "japanese_eisuu"
-            }
+              "select_input_source": {
+                "language": "^en$"
+            }            }
           ]
         },
         {
@@ -60,8 +61,9 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "japanese_kana"
-            }
+              "select_input_source": {
+                "language": "^jp$"
+            }             }
           ]
         }
       ]
