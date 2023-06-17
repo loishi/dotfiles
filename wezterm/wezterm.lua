@@ -1,7 +1,7 @@
 local wezterm = require 'wezterm';
 
 return {
-  font = wezterm.font_with_fallback({"Hack Nerd Font","Noto Sans JP", "Noto Sans"}),
+  font = wezterm.font_with_fallback({"Hack Nerd Font", "Noto Sans JP", "Noto Sans"}),
   window_background_opacity = 0.75,
   window_decorations = "RESIZE",
   enable_tab_bar = false,
