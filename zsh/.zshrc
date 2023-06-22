@@ -1,14 +1,10 @@
-export PATH=/usr/local/texlive/2023/bin/x86_64-darwin:${PATH}
-export PATH=/usr/local/sbin:${PATH}
-export PATH=$HOME/.cargo/bin:${PATH}
-export PATH=$HOME/.poetry/env:${PATH}
-export MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man:${MANPATH}
-export INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info:${INFOPATH}
+typeset -U path PATH
+path=(/opt/homebrew/sbin /opt/homebrew/bin/ ~/.cargo/bin $path)
+export PATH
 export GPG_TTY=$(tty)
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 export XDG_CONFIG_HOME=~/.config
-export JDTLS_HOME=~/.local/share/nvim/lsp_servers/jdtls
 export RIPGREP_CONFIG_PATH=~/.config/ripgrep/ripgreprc
 export EDITOR=nvim
 
@@ -25,4 +21,3 @@ alias cac="cargo compete"
 
 gpgconf --launch gpg-agent
 eval "$(starship init zsh)"
-eval "$(zoxide init zsh)"
