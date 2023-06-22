@@ -10,7 +10,8 @@ export EDITOR=nvim
 
 alias ..="cd .."
 alias ssh="env TERM=xterm ssh"
-alias ll="exa -al"
+alias ll="lsd -al"
+alias la="lsd -a"
 alias nv="nvim"
 alias bu="aud && sudo tlmgr update -all -self --reinstall-forcibly-removed || true && brew update || true && brew upgrade || true && brew upgrade --cask || true && brew upgrade --cask wezterm-nightly --no-quarantine --greedy-latest || true && brew cleanup || true && tldr -u || true && sudo -H pip-review --auto || true && rustup update stable"
 alias gpp="g++ main.cc && ./a.out"
