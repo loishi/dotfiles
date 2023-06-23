@@ -11,6 +11,7 @@ export EDITOR=nvim
 alias ..="cd .."
 alias ssh="env TERM=xterm ssh"
 alias ll="lsd -al"
+alias npm="pnpm"
 alias la="lsd -a"
 alias nv="nvim"
 alias bu="brew update || true && brew upgrade || true && brew upgrade --cask || true && brew upgrade --cask wezterm-nightly --no-quarantine --greedy-latest || true && brew cleanup || true && tldr -u || true && rustup update stable"
