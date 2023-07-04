@@ -1,5 +1,5 @@
 typeset -U path PATH
-path=(/opt/homebrew/sbin /opt/homebrew/bin/ ~/.cargo/bin $path)
+path=(/opt/homebrew/sbin /opt/homebrew/bin/ ~/.cargo/bin ~/x/git/monero/build/Darwin/master/release/bin $path)
 export PATH
 export GPG_TTY=$(tty)
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
