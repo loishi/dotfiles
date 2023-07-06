@@ -84,6 +84,8 @@ if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
 	add-zle-hook-widget -Uz zle-line-finish zle_application_mode_stop
 fi
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#797979"
+
 gpgconf --launch gpg-agent
 eval "$(starship init zsh)"
 source /opt/homebrew/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
