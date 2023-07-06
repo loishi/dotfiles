@@ -24,14 +24,13 @@ alias cac="cargo compete"
 autoload -U colors 
 colors
 
+autoload -Uz compinit
 zmodload zsh/complist
-# autoload -Uz compinit
-# compinit
-# zstyle '*:compinit' arguments -D -i -u -C -w
-# zstyle ':completion:*' menu select
+compinit
+zstyle '*:compinit' arguments -D -i -u -C -w
+_comp_options+=(globdots)
 
 setopt autocd
-_comp_options+=(globdots)
 
 # vi mode
 bindkey -v
@@ -62,14 +61,14 @@ bindkey -v '^?' backward-delete-char
 
 HISTSIZE=10000000
 SAVEHIST=10000000
-HISTFILE="~/.config/zsh/.zsh_history"
+HISTFILE=$ZDOTDIR/.zsh_history
 
 # History search
+typeset -g -A key
 autoload -Uz up-line-or-beginning-search down-line-or-beginning-search
 zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
 
-typeset -g -A key
 key[Up]="${terminfo[kcuu1]}"
 key[Down]="${terminfo[kcud1]}"
 key[Left]="${terminfo[kcub1]}"
@@ -78,7 +77,15 @@ key[Right]="${terminfo[kcuf1]}"
 [[ -n "${key[Up]}"   ]] && bindkey -- "${key[Up]}"   up-line-or-beginning-search
 [[ -n "${key[Down]}" ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
 
+if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
+	autoload -Uz add-zle-hook-widget
+	function zle_application_mode_start { echoti smkx }
+	function zle_application_mode_stop { echoti rmkx }
+	add-zle-hook-widget -Uz zle-line-init zle_application_mode_start
+	add-zle-hook-widget -Uz zle-line-finish zle_application_mode_stop
+fi
+
 gpgconf --launch gpg-agent
 eval "$(starship init zsh)"
-source /opt/homebrew/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
