@@ -27,7 +27,6 @@ colors
 autoload -Uz compinit
 zmodload zsh/complist
 compinit
-zstyle '*:compinit' arguments -D -i -u -C -w
 _comp_options+=(globdots)
 
 setopt autocd
