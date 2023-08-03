@@ -1,3 +1,0 @@
-bu
-brew uninstall --cask wezterm-nightly
-brew install --cask wezterm-nightly
