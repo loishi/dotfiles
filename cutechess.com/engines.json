@@ -1,13 +1,156 @@
 [
 	{
 		"command" : "./stockfish",
+		"name" : "Stockfish 2",
+		"options" : [
+			{
+				"alias" : "",
+				"default" : "",
+				"name" : "Debug Log File",
+				"type" : "text",
+				"value" : ""
+			},
+			{
+				"alias" : "",
+				"default" : 1,
+				"max" : 1024,
+				"min" : 1,
+				"name" : "Threads",
+				"type" : "spin",
+				"value" : 8
+			},
+			{
+				"alias" : "",
+				"default" : 16,
+				"max" : 33554432,
+				"min" : 1,
+				"name" : "Hash",
+				"type" : "spin",
+				"value" : 2000
+			},
+			{
+				"name" : "Clear Hash",
+				"type" : "button"
+			},
+			{
+				"alias" : "",
+				"default" : 1,
+				"max" : 500,
+				"min" : 1,
+				"name" : "MultiPV",
+				"type" : "spin",
+				"value" : 1
+			},
+			{
+				"alias" : "",
+				"default" : 20,
+				"max" : 20,
+				"min" : 0,
+				"name" : "Skill Level",
+				"type" : "spin",
+				"value" : 20
+			},
+			{
+				"alias" : "",
+				"default" : 10,
+				"max" : 5000,
+				"min" : 0,
+				"name" : "Move Overhead",
+				"type" : "spin",
+				"value" : 10
+			},
+			{
+				"alias" : "",
+				"default" : 100,
+				"max" : 1000,
+				"min" : 10,
+				"name" : "Slow Mover",
+				"type" : "spin",
+				"value" : 100
+			},
+			{
+				"alias" : "",
+				"default" : 0,
+				"max" : 10000,
+				"min" : 0,
+				"name" : "nodestime",
+				"type" : "spin",
+				"value" : 0
+			},
+			{
+				"alias" : "",
+				"default" : false,
+				"name" : "UCI_LimitStrength",
+				"type" : "check",
+				"value" : false
+			},
+			{
+				"alias" : "",
+				"default" : 1320,
+				"max" : 3190,
+				"min" : 1320,
+				"name" : "UCI_Elo",
+				"type" : "spin",
+				"value" : 1320
+			},
+			{
+				"alias" : "",
+				"default" : "<empty>",
+				"name" : "SyzygyPath",
+				"type" : "text",
+				"value" : "/Users/loishi/x/git/tablebases/syzygy"
+			},
+			{
+				"alias" : "",
+				"default" : 1,
+				"max" : 100,
+				"min" : 1,
+				"name" : "SyzygyProbeDepth",
+				"type" : "spin",
+				"value" : 1
+			},
+			{
+				"alias" : "",
+				"default" : true,
+				"name" : "Syzygy50MoveRule",
+				"type" : "check",
+				"value" : true
+			},
+			{
+				"alias" : "",
+				"default" : 7,
+				"max" : 7,
+				"min" : 0,
+				"name" : "SyzygyProbeLimit",
+				"type" : "spin",
+				"value" : 7
+			},
+			{
+				"alias" : "",
+				"default" : "nn-ac1dbea57aa3.nnue",
+				"name" : "EvalFile",
+				"type" : "text",
+				"value" : "nn-ac1dbea57aa3.nnue"
+			}
+		],
+		"protocol" : "uci",
+		"stderrFile" : "",
+		"timeoutScaleFactor" : 1,
+		"variants" : [
+			"standard",
+			"fischerandom"
+		],
+		"workingDirectory" : "/Users/loishi/x/git/Stockfish/src"
+	},
+	{
+		"command" : "./stockfish",
 		"name" : "Stockfish",
 		"options" : [
 			{
 				"alias" : "",
 				"default" : "",
 				"name" : "Debug Log File",
-				"type" : "file",
+				"type" : "text",
 				"value" : ""
 			},
 			{
@@ -97,7 +240,7 @@
 				"alias" : "",
 				"default" : "<empty>",
 				"name" : "SyzygyPath",
-				"type" : "folder",
+				"type" : "text",
 				"value" : "/Users/loishi/x/git/tablebases/syzygy"
 			},
 			{
@@ -127,10 +270,10 @@
 			},
 			{
 				"alias" : "",
-				"default" : "nn-c38c3d8d3920.nnue",
+				"default" : "nn-ac1dbea57aa3.nnue",
 				"name" : "EvalFile",
-				"type" : "file",
-				"value" : "nn-c38c3d8d3920.nnue"
+				"type" : "text",
+				"value" : "nn-ac1dbea57aa3.nnue"
 			}
 		],
 		"protocol" : "uci",
@@ -150,7 +293,7 @@
 				"alias" : "",
 				"default" : "",
 				"name" : "Debug Log File",
-				"type" : "file",
+				"type" : "text",
 				"value" : ""
 			},
 			{
@@ -240,7 +383,7 @@
 				"alias" : "",
 				"default" : "<empty>",
 				"name" : "SyzygyPath",
-				"type" : "folder",
+				"type" : "text",
 				"value" : "/Users/loishi/x/git/tablebases/syzygy"
 			},
 			{
@@ -270,439 +413,10 @@
 			},
 			{
 				"alias" : "",
-				"default" : "nn-c38c3d8d3920.nnue",
+				"default" : "nn-ac1dbea57aa3.nnue",
 				"name" : "EvalFile",
-				"type" : "file",
-				"value" : "nn-c38c3d8d3920.nnue"
-			}
-		],
-		"protocol" : "uci",
-		"stderrFile" : "",
-		"timeoutScaleFactor" : 1,
-		"variants" : [
-			"standard",
-			"fischerandom"
-		],
-		"workingDirectory" : "/Users/loishi/x/git/Stockfish/src"
-	},
-	{
-		"command" : "./stockfish",
-		"name" : "Stockfish 2",
-		"options" : [
-			{
-				"alias" : "",
-				"default" : "",
-				"name" : "Debug Log File",
-				"type" : "file",
-				"value" : ""
-			},
-			{
-				"alias" : "",
-				"default" : 1,
-				"max" : 1024,
-				"min" : 1,
-				"name" : "Threads",
-				"type" : "spin",
-				"value" : 8
-			},
-			{
-				"alias" : "",
-				"default" : 16,
-				"max" : 33554432,
-				"min" : 1,
-				"name" : "Hash",
-				"type" : "spin",
-				"value" : 2000
-			},
-			{
-				"name" : "Clear Hash",
-				"type" : "button"
-			},
-			{
-				"alias" : "",
-				"default" : 1,
-				"max" : 500,
-				"min" : 1,
-				"name" : "MultiPV",
-				"type" : "spin",
-				"value" : 1
-			},
-			{
-				"alias" : "",
-				"default" : 20,
-				"max" : 20,
-				"min" : 0,
-				"name" : "Skill Level",
-				"type" : "spin",
-				"value" : 20
-			},
-			{
-				"alias" : "",
-				"default" : 10,
-				"max" : 5000,
-				"min" : 0,
-				"name" : "Move Overhead",
-				"type" : "spin",
-				"value" : 10
-			},
-			{
-				"alias" : "",
-				"default" : 100,
-				"max" : 1000,
-				"min" : 10,
-				"name" : "Slow Mover",
-				"type" : "spin",
-				"value" : 100
-			},
-			{
-				"alias" : "",
-				"default" : 0,
-				"max" : 10000,
-				"min" : 0,
-				"name" : "nodestime",
-				"type" : "spin",
-				"value" : 0
-			},
-			{
-				"alias" : "",
-				"default" : false,
-				"name" : "UCI_LimitStrength",
-				"type" : "check",
-				"value" : false
-			},
-			{
-				"alias" : "",
-				"default" : 1320,
-				"max" : 3190,
-				"min" : 1320,
-				"name" : "UCI_Elo",
-				"type" : "spin",
-				"value" : 1320
-			},
-			{
-				"alias" : "",
-				"default" : "<empty>",
-				"name" : "SyzygyPath",
-				"type" : "folder",
-				"value" : "/Users/loishi/x/git/tablebases/syzygy"
-			},
-			{
-				"alias" : "",
-				"default" : 1,
-				"max" : 100,
-				"min" : 1,
-				"name" : "SyzygyProbeDepth",
-				"type" : "spin",
-				"value" : 1
-			},
-			{
-				"alias" : "",
-				"default" : true,
-				"name" : "Syzygy50MoveRule",
-				"type" : "check",
-				"value" : true
-			},
-			{
-				"alias" : "",
-				"default" : 7,
-				"max" : 7,
-				"min" : 0,
-				"name" : "SyzygyProbeLimit",
-				"type" : "spin",
-				"value" : 7
-			},
-			{
-				"alias" : "",
-				"default" : "nn-c38c3d8d3920.nnue",
-				"name" : "EvalFile",
-				"type" : "file",
-				"value" : "nn-c38c3d8d3920.nnue"
-			}
-		],
-		"protocol" : "uci",
-		"stderrFile" : "",
-		"timeoutScaleFactor" : 1,
-		"variants" : [
-			"standard",
-			"fischerandom"
-		],
-		"workingDirectory" : "/Users/loishi/x/git/Stockfish/src"
-	},
-	{
-		"command" : "./stockfish",
-		"name" : "Stockfish 2400",
-		"options" : [
-			{
-				"alias" : "",
-				"default" : "",
-				"name" : "Debug Log File",
-				"type" : "file",
-				"value" : ""
-			},
-			{
-				"alias" : "",
-				"default" : 1,
-				"max" : 1024,
-				"min" : 1,
-				"name" : "Threads",
-				"type" : "spin",
-				"value" : 8
-			},
-			{
-				"alias" : "",
-				"default" : 16,
-				"max" : 33554432,
-				"min" : 1,
-				"name" : "Hash",
-				"type" : "spin",
-				"value" : 2400
-			},
-			{
-				"name" : "Clear Hash",
-				"type" : "button"
-			},
-			{
-				"alias" : "",
-				"default" : 1,
-				"max" : 500,
-				"min" : 1,
-				"name" : "MultiPV",
-				"type" : "spin",
-				"value" : 1
-			},
-			{
-				"alias" : "",
-				"default" : 20,
-				"max" : 20,
-				"min" : 0,
-				"name" : "Skill Level",
-				"type" : "spin",
-				"value" : 20
-			},
-			{
-				"alias" : "",
-				"default" : 10,
-				"max" : 5000,
-				"min" : 0,
-				"name" : "Move Overhead",
-				"type" : "spin",
-				"value" : 10
-			},
-			{
-				"alias" : "",
-				"default" : 100,
-				"max" : 1000,
-				"min" : 10,
-				"name" : "Slow Mover",
-				"type" : "spin",
-				"value" : 100
-			},
-			{
-				"alias" : "",
-				"default" : 0,
-				"max" : 10000,
-				"min" : 0,
-				"name" : "nodestime",
-				"type" : "spin",
-				"value" : 0
-			},
-			{
-				"alias" : "",
-				"default" : false,
-				"name" : "UCI_LimitStrength",
-				"type" : "check",
-				"value" : true
-			},
-			{
-				"alias" : "",
-				"default" : 1320,
-				"max" : 3190,
-				"min" : 1320,
-				"name" : "UCI_Elo",
-				"type" : "spin",
-				"value" : 2000
-			},
-			{
-				"alias" : "",
-				"default" : "<empty>",
-				"name" : "SyzygyPath",
-				"type" : "folder",
-				"value" : "/Users/loishi/x/git/tablebases/syzygy"
-			},
-			{
-				"alias" : "",
-				"default" : 1,
-				"max" : 100,
-				"min" : 1,
-				"name" : "SyzygyProbeDepth",
-				"type" : "spin",
-				"value" : 1
-			},
-			{
-				"alias" : "",
-				"default" : true,
-				"name" : "Syzygy50MoveRule",
-				"type" : "check",
-				"value" : true
-			},
-			{
-				"alias" : "",
-				"default" : 7,
-				"max" : 7,
-				"min" : 0,
-				"name" : "SyzygyProbeLimit",
-				"type" : "spin",
-				"value" : 7
-			},
-			{
-				"alias" : "",
-				"default" : "nn-c38c3d8d3920.nnue",
-				"name" : "EvalFile",
-				"type" : "file",
-				"value" : "nn-c38c3d8d3920.nnue"
-			}
-		],
-		"protocol" : "uci",
-		"stderrFile" : "",
-		"timeoutScaleFactor" : 1,
-		"variants" : [
-			"standard",
-			"fischerandom"
-		],
-		"workingDirectory" : "/Users/loishi/x/git/Stockfish/src"
-	},
-	{
-		"command" : "./stockfish",
-		"name" : "Stockfish no 50",
-		"options" : [
-			{
-				"alias" : "",
-				"default" : "",
-				"name" : "Debug Log File",
-				"type" : "file",
-				"value" : ""
-			},
-			{
-				"alias" : "",
-				"default" : 1,
-				"max" : 1024,
-				"min" : 1,
-				"name" : "Threads",
-				"type" : "spin",
-				"value" : 8
-			},
-			{
-				"alias" : "",
-				"default" : 16,
-				"max" : 33554432,
-				"min" : 1,
-				"name" : "Hash",
-				"type" : "spin",
-				"value" : 2000
-			},
-			{
-				"name" : "Clear Hash",
-				"type" : "button"
-			},
-			{
-				"alias" : "",
-				"default" : 1,
-				"max" : 500,
-				"min" : 1,
-				"name" : "MultiPV",
-				"type" : "spin",
-				"value" : 1
-			},
-			{
-				"alias" : "",
-				"default" : 20,
-				"max" : 20,
-				"min" : 0,
-				"name" : "Skill Level",
-				"type" : "spin",
-				"value" : 20
-			},
-			{
-				"alias" : "",
-				"default" : 10,
-				"max" : 5000,
-				"min" : 0,
-				"name" : "Move Overhead",
-				"type" : "spin",
-				"value" : 10
-			},
-			{
-				"alias" : "",
-				"default" : 100,
-				"max" : 1000,
-				"min" : 10,
-				"name" : "Slow Mover",
-				"type" : "spin",
-				"value" : 100
-			},
-			{
-				"alias" : "",
-				"default" : 0,
-				"max" : 10000,
-				"min" : 0,
-				"name" : "nodestime",
-				"type" : "spin",
-				"value" : 0
-			},
-			{
-				"alias" : "",
-				"default" : false,
-				"name" : "UCI_LimitStrength",
-				"type" : "check",
-				"value" : false
-			},
-			{
-				"alias" : "",
-				"default" : 1320,
-				"max" : 3190,
-				"min" : 1320,
-				"name" : "UCI_Elo",
-				"type" : "spin",
-				"value" : 1320
-			},
-			{
-				"alias" : "",
-				"default" : "<empty>",
-				"name" : "SyzygyPath",
-				"type" : "folder",
-				"value" : "/Users/loishi/x/git/tablebases/syzygy"
-			},
-			{
-				"alias" : "",
-				"default" : 1,
-				"max" : 100,
-				"min" : 1,
-				"name" : "SyzygyProbeDepth",
-				"type" : "spin",
-				"value" : 1
-			},
-			{
-				"alias" : "",
-				"default" : true,
-				"name" : "Syzygy50MoveRule",
-				"type" : "check",
-				"value" : false
-			},
-			{
-				"alias" : "",
-				"default" : 7,
-				"max" : 7,
-				"min" : 0,
-				"name" : "SyzygyProbeLimit",
-				"type" : "spin",
-				"value" : 7
-			},
-			{
-				"alias" : "",
-				"default" : "nn-c38c3d8d3920.nnue",
-				"name" : "EvalFile",
-				"type" : "file",
-				"value" : "nn-c38c3d8d3920.nnue"
+				"type" : "text",
+				"value" : "nn-ac1dbea57aa3.nnue"
 			}
 		],
 		"protocol" : "uci",
