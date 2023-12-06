@@ -20,7 +20,7 @@ alias aud="sudo launchctl stop com.apple.audio.coreaudiod && sudo launchctl star
 alias acs="acc s -s -- -y"
 alias dt='time_stamp=$(date +%Y-%m-%d\ %H:%M:%S%z) && sed -i "" "s/date/$time_stamp/"'
 alias cac="cargo compete"
-alias sf="python3 ~/x/git/external-engine/example-provider.py --name M2 --token lip_SwDZuY2bmtNMgrfNw6oS --engine '~/x/git/Stockfish/src/stockfish --setoption threads 8"
+alias sf="python3 ~/x/git/external-engine/example-provider.py --name M2 --token lip_SwDZuY2bmtNMgrfNw6oS --engine ~/x/git/Stockfish/src/stockfish --max-threads 8 --max-hash 15360 --default-depth 64 --keep-alive 10485760"
 
 autoload -U colors 
 colors

@@ -127,10 +127,10 @@
 			},
 			{
 				"alias" : "",
-				"default" : "nn-ac1dbea57aa3.nnue",
+				"default" : "nn-0000000000a0.nnue",
 				"name" : "EvalFile",
 				"type" : "text",
-				"value" : "nn-ac1dbea57aa3.nnue"
+				"value" : "nn-0000000000a0.nnue"
 			}
 		],
 		"protocol" : "uci",
@@ -150,7 +150,7 @@
 				"alias" : "",
 				"default" : "",
 				"name" : "Debug Log File",
-				"type" : "text",
+				"type" : "file",
 				"value" : ""
 			},
 			{
@@ -240,7 +240,7 @@
 				"alias" : "",
 				"default" : "<empty>",
 				"name" : "SyzygyPath",
-				"type" : "text",
+				"type" : "folder",
 				"value" : "/Users/loishi/x/git/tablebases/syzygy"
 			},
 			{
@@ -272,7 +272,7 @@
 				"alias" : "",
 				"default" : "nn-ac1dbea57aa3.nnue",
 				"name" : "EvalFile",
-				"type" : "text",
+				"type" : "file",
 				"value" : "nn-ac1dbea57aa3.nnue"
 			}
 		],
@@ -413,10 +413,10 @@
 			},
 			{
 				"alias" : "",
-				"default" : "nn-ac1dbea57aa3.nnue",
+				"default" : "nn-0000000000a0.nnue",
 				"name" : "EvalFile",
 				"type" : "text",
-				"value" : "nn-ac1dbea57aa3.nnue"
+				"value" : "nn-0000000000a0.nnue"
 			}
 		],
 		"protocol" : "uci",

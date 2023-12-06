@@ -1,0 +1,19 @@
+oauth_token = "584aVhrDbUQhYPhpFRfr-SXVYRxJ8epQH7myVuXklr8.a6vAeZbbRLQEx8HH5BrajVmW6eyox643gVqefDFY8JA"
+expiration_time = "2023-10-23T12:25:49.758Z"
+refresh_token = "tL7SUCRil-amCabrQPaER9jIBg5uyEF970ZuaREAtQM.yxZyjxd6LhrPgH2BXg6qDule-XMZi1LPQezuVaxKSOg"
+scopes = [
+  "account:read",
+  "user:read",
+  "workers:write",
+  "workers_kv:write",
+  "workers_routes:write",
+  "workers_scripts:write",
+  "workers_tail:read",
+  "d1:write",
+  "pages:write",
+  "zone:read",
+  "ssl_certs:write",
+  "constellation:write",
+  "ai:read",
+  "offline_access"
+]
