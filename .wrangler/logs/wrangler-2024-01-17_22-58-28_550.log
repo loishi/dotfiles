@@ -1,0 +1,92 @@
+
+--- 2024-01-17T22:58:28.625Z debug
+🪵  Writing logs to "/Users/loishi/.config/.wrangler/logs/wrangler-2024-01-17_22-58-28_550.log"
+---
+
+--- 2024-01-17T22:58:28.625Z debug
+Failed to load .env file ".env": Error: ENOENT: no such file or directory, open '.env'
+    at Object.openSync (node:fs:581:18)
+    at Object.readFileSync (node:fs:460:35)
+    at tryLoadDotEnv (/Users/loishi/Library/pnpm/store/v3/tmp/dlx-89313/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:123834:72)
+    at loadDotEnv (/Users/loishi/Library/pnpm/store/v3/tmp/dlx-89313/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:123843:12)
+    at /Users/loishi/Library/pnpm/store/v3/tmp/dlx-89313/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:156516:20
+    at /Users/loishi/Library/pnpm/store/v3/tmp/dlx-89313/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:130707:16
+    at maybeAsyncResult (/Users/loishi/Library/pnpm/store/v3/tmp/dlx-89313/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:128928:44)
+    at /Users/loishi/Library/pnpm/store/v3/tmp/dlx-89313/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:130706:14
+    at /Users/loishi/Library/pnpm/store/v3/tmp/dlx-89313/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:128915:22
+    at Array.reduce (<anonymous>) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '.env'
+}
+---
+
+--- 2024-01-17T22:58:28.630Z log
+ ⛅️ wrangler 3.22.5
+[38;2;255;136;0m-------------------[39m
+---
+
+--- 2024-01-17T22:58:28.630Z log
+Attempting to login via OAuth...
+---
+
+--- 2024-01-17T22:58:28.632Z log
+Opening a link in your default browser: https://dash.cloudflare.com/oauth2/auth?response_type=code&client_id=54d11594-84e4-41aa-b438-e81b8fa78ee7&redirect_uri=http%3A%2F%2Flocalhost%3A8976%2Foauth%2Fcallback&scope=account%3Aread%20user%3Aread%20workers%3Awrite%20workers_kv%3Awrite%20workers_routes%3Awrite%20workers_scripts%3Awrite%20workers_tail%3Aread%20d1%3Awrite%20pages%3Awrite%20zone%3Aread%20ssl_certs%3Awrite%20constellation%3Awrite%20ai%3Aread%20offline_access&state=r3jeAssNibw0FnvjSDkUsbm3hhq9M7sr&code_challenge=rCfxxO38zqXmjUYfklCLBUdNXVmdMuqnG2qpS4HCMck&code_challenge_method=S256
+---
+
+--- 2024-01-17T22:58:39.530Z debug
+Checking if domain has Access enabled: dash.cloudflare.com
+---
+
+--- 2024-01-17T22:58:39.531Z debug
+Access switch not cached for: dash.cloudflare.com
+---
+
+--- 2024-01-17T22:58:39.620Z debug
+Caching access switch for: dash.cloudflare.com
+---
+
+--- 2024-01-17T22:58:39.828Z log
+Successfully logged in.
+---
+
+--- 2024-01-17T22:58:39.835Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/user
+---
+
+--- 2024-01-17T22:58:39.836Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-01-17T22:58:39.836Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-01-17T22:58:39.836Z debug
+-- END CF API REQUEST
+---
+
+--- 2024-01-17T22:58:40.241Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2024-01-17T22:58:40.243Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-01-17T22:58:40.243Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-01-17T22:58:40.243Z debug
+-- END CF API RESPONSE
+---
+
+--- 2024-01-17T22:58:40.243Z debug
+Saving to cache: {"userId":"f2c4c1213e70bab4032f8309e1da9a9f"}
+---
+
+--- 2024-01-17T22:58:40.245Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"type":"event","name":"login user","properties":{}}.
+---

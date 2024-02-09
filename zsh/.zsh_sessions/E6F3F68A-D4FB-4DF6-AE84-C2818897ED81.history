@@ -1,0 +1,5722 @@
+starship
+vim .zshenv
+vim .config/zsh
+starship
+which starship
+brew install gnupg
+vim .config/zsh/.zshrc
+ls
+ls -al
+nv .zprofile
+vim .zprofile
+vim .config/zsh/.zshrc
+brew install pinentry-mac
+gpgconf
+gpgconf
+gpg
+gpgconf
+gpg
+brew install gnupg
+gpgconf
+gpgconf
+vim .config/zsh/.zshr
+vim .config/zsh/.zshrc
+gpg --full-generate-key\
+
+gpg --full-generate-key\
+
+> gpg  --expert --full-gen-key\
+
+ gpg  --expert --full-gen-key\
+
+gpg -K
+gpg --armor --export E1F4B9826C2589BE55C70CD21846231449999D350B95AEC013A870B530ADCC9D
+gpg --delete-secret-keys E1F4B9826C2589BE55C70CD21846231449999D350B95AEC013A870B530ADCC9D
+gpg --delete-keys E1F4B9826C2589BE55C70CD21846231449999D350B95AEC013A870B530ADCC9D
+gpg -K
+ gpg  --expert --full-gen-key\
+
+gpg -K
+gpg --armor --export B325353D48CB9F408653BC11E4674779E146AA80
+git config --global user.signingkey B325353D48CB9F408653BC11E4674779E146AA80
+cd .config
+git add * 
+git commit -m "first commit on my new device"
+    git config --global user.email loishi1312@gmail.com
+    git commit --amend --reset-author
+git push
+git push
+git config --global user.name "loishi"
+git push
+git condig -l
+git config -l
+git push
+git push
+git push
+git config --global --unset credential.helper
+git push
+..
+ll
+cd .config
+nv zsh/.zshrc
+ll
+ls --tree
+lsd --tree
+la
+lsd =a
+lsd -a
+nv .config/zsh/.zshrc
+cd .config
+git add *
+git commit -m "yuh"
+git push
+..
+cd x/keio
+cd x
+ll
+git clone https://github.com/loishi/keio
+ll
+cd keio
+la
+cd x/keio
+la
+ll
+cd class
+ll
+brew install tealdeer
+tldr
+vim .config/nvim/init.vim
+cd .config/nvim
+ll
+cp init.vim init.lua
+nv init.lua
+networkQuality
+brew tap homebrew/cask-versions
+brew install --cask brave-browser-beta
+defaults write com.apple.finder CreateDesktop false\
+
+killall finder
+killall Finder
+ed
+bu
+nv .config/zsh/.zshrc
+rustc
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\
+
+nv .config/zsh/.zshrc
+bu
+nv .config/zsh/.zshrc
+brew install --cask alfred
+cd .config
+mv nvim nvim.bak
+brew install lazygit
+git add *
+git commit -m "yu"
+git push
+lazygit
+tldr git add
+git add -u
+git add -u *
+git add -u .* *
+tldr git
+git add -u && git add * .*
+git commit -m "commiting"
+git push
+nv
+mv ~/.local/share/nvim ~/.local/share/nvim.bak\
+mv ~/.local/state/nvim ~/.local/state/nvim.bak\
+mv ~/.cache/nvim ~/.cache/nvim.bak
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+ll
+rm -rf nvim/.git
+nv
+nv
+nv nvim/init.lua
+git add -u && git add * .*
+git commit -m "lazyvimgit add -u && git add * .*\
+
+git commit -m "lazyvimgit add -u && git add * .*\
+\
+
+git commit -m "feelin lazy"
+git push
+nv nvim
+nv zsh/.zshrc
+brew install pnpm
+pnpm
+pnpm -v
+pnpm --version
+brew install npm
+pnpm --version
+nv
+nv nvim
+git add -u && git add * .*
+git commit -m "feelin lazy"
+git push
+nv .config
+nv
+nv
+nv
+nv .config/nvim/lua/plugins/example.lua
+nv .config/nvim
+nv .config/nvim
+bu
+sudo btm
+nv
+cd x/keio/
+ll
+cd random/
+ll
+nv prime.py
+nv prime.py
+nv prime.py
+rm -rf prime.py
+nv prime.py
+python3 prime.py
+nv prime.py
+python3 prime.py
+python3 prime.py
+python3 prime.py
+nv
+cd x/keio
+cd random
+ll
+nv gcdlcm.py
+python3 gcdlcm.py
+python3
+python3 gcdlcm.py
+nv gcdlcm.py
+nv gcdlcm.py
+python3 gcdlcm.py
+..
+git add *
+git commit -m "y"
+git push
+cd x/
+ll
+mkdir code
+cd code
+mkdir atcoder
+cd atcoder
+mkdir abc307
+cd abc307
+a.rs
+nv a.rs
+nv a.rs
+ll
+nv a.cpp
+nv
+nv a.cpp
+G++
+g++
+g++ a.cpp
+nv b.cpp
+g++ b.cpp
+ll
+./a.out
+nv b.cpp
+g++ b.cpp
+./a.out
+./a.out
+./a.out
+nv b.cpp
+nv c.cpp
+g++ c.cpp
+./a.out
+./a.out
+./a.out
+nv c.py
+python3 c.py
+nv c.py
+python3 c.py
+nv c.cpp
+g++ c.cpp
+ll
+./a.out
+./a.out
+./a.out
+./a.out
+nv c.cpp
+g++ c.cpp
+./a.out
+cat c.cpp
+bu
+bu
+brew install --cask mullvad-browser
+tldr brew search
+tldr brew
+brew search noto
+brew uninstall font-noto-nerd-font
+brew install --cask protonvpn
+networkQuality
+brew install xmrig monero
+bu
+brew cu -a
+nv
+nv
+yabai --stop-service
+yabai --start-service
+nv
+cd x/keio/random
+ll
+cd data
+data.md
+nv data.md
+..
+..
+git add *
+git commit -m "sheesh"
+git push
+bu
+bu
+brew uninstall wezterm-nightly && brew install --cask wezterm-nightly
+brew install --cask wezterm-nightly
+rm -rf /Applications/WezTerm.app
+cd .config
+git add * -u
+git commit -m "yuh"
+git push
+git pull
+git reset
+git reset HEAD
+git reset --hard HEAD^\
+
+git pull
+nv zsh/.zshrc
+git add * -u
+git add .*
+git add * ,* -u
+git add * .* -u
+git commit -m "h"
+git push
+ll
+git add -u
+bu
+brew install --cask visual-studio-code-insiders
+say hello
+say what's up my brother\
+
+say "what's up my brother"\
+
+say "what's up you son of a bitch"\
+
+say "what's up my nikka"\
+
+say "what's up my niha"\
+
+say "what's up my nigga"\
+
+nv x/keio/cn1
+cd x/keio/class/cn1
+ll
+nv 6l.md
+softwareupdate --list
+ll
+cd .bitmonero
+ll
+cd lmdb
+ll
+sudo btm
+monerod --prune-blockchain
+monerod --prune-blockchain
+bu
+monero
+monerod
+monero-wallet-cli
+ll
+rm -rf Monero\ Main Monero\ Main.keys
+monero-wallet-cli --help
+monero-wallet-cli --restore-from-seed
+monero-wallet-cli --help || rg prune
+monero-wallet-cli --help || grep prune
+monerod --help
+monero-cli-wallet --restore-from-seed
+monero-wallet-cli --restore-from-seed
+monero-wallet-cli --restore-from-seed
+brew install --cask zoom
+sudo btm
+node
+cd x/keio
+cd random
+ll
+nv multiplesofthree.cpp
+g++ multiplesofthree.cpp
+nv multiplesofthree.cpp
+g++ multiplesofthree.cpp
+./a.out
+./a.out
+nv multiplesofthree.cpp
+g++ multiplesofthree.cpp
+./a.out
+nv multiplesofthree.cpp
+g++ multiplesofthree.cpp
+./a.out
+nv multiplesofthree.cpp
+g++ multiplesofthree.cpp
+./a.out
+nv multiplesofthree.cpp
+g++ multiplesofthree.cpp
+./a.out
+nv multiplesofthree.cpp
+g++ multiplesofthree.cpp
+./a.out
+cat multiplesofthree.cpp
+cd x/keio
+nv random/data/w2.csv
+nv random/data/names.csv
+nv random/data/names.csv
+nv x/keio/random/data/names.csv
+cd .config
+..
+cd x/keio
+git add * .* -u
+git commit -m "luv"
+git push
+sudo btm
+sudo btm
+bu
+fjfj
+monerod --prune-blockchain
+monerod --prune-blockchain --max-concurrency 8
+monerod --prune-blockchain --max-concurrency 16
+monerod --prune-blockchain --max-concurrency=8
+monerod --prune-blockchain --max-concurrency=16
+monerod --prune-blockchain 
+monerod --prune-blockchain --max-concurrency 16
+cd .bitmonero
+ll
+cd lmdb
+ll
+cd .config
+git fetch
+git add * .*
+git commit -m "ji"
+git push
+caffeinate
+monero-wallet-cli
+bu
+monerod --prune-blockchain
+monerod --prune-blockchain --max-concurrency=10
+monerod --prune-blockchain --max-concurrency=10
+monerod --prune-blockchain 
+monerod
+monerod --prune-blockchain --db-sync-mode safe\
+
+monerod --prune-blockchain --max-concurrency 10
+bu
+monerod --db-salvage
+sudo reboot
+sudo reboot
+sudo reboot
+sudo btm
+..
+..
+..
+cd .config/
+nv zsh/.zshrc
+source zsh/.zshrc
+nv zsh/.zshrc
+source zsh/.zshrc
+monerod --prune-blockchain --max-concurrency 10
+cd .bitmonero
+ll
+cd lmdb
+ll
+monerod
+brew update && brew bundle --file=contrib/brew/Brewfile
+brew uninstall monero
+monerod
+..
+..
+cd git
+mkdir git
+rm -rf git
+ll
+cd x/git
+cd x
+mkdir git
+ll
+cd git
+git clone --recursive https://github.com/monero-project/monero
+cd monero\
+git checkout release-v0.18.2.2
+git checkout master
+make -j8
+monerod --detach 
+cd
+cd .config/zsh/.zshrc
+nv .config/zsh/.zshrc
+source .config/zsh/.zshrc
+monerod --detach --prune-blockchain
+monerod
+cd x/git/monero
+cd build/
+ll
+cd Darwin
+ll
+cd master
+ll
+cd release
+ll
+cd bin
+ll
+pwd
+monerod --detach --prune-blockchain
+killall monerod
+sudo btm
+monerod --prune-blockchain
+brew install --cask monero-wallet-gui
+brew install --cask monero-wallet
+brew uninstall --cask monero-wallet-gui
+brew uninstall --cask monero-wallet
+monerod --prune-blockchain
+monerod
+sudo btm
+monerod status
+monerod --prune-blockchain --sync-pruned-blocks
+monerod --version
+cd x/git/monero
+rm..
+..
+rm -rf monero
+brew install monero
+monero
+monerod
+monerod  help
+monerod status
+monerod update
+monerod prune_blockchain
+monero-blockchain-prune
+monero prune_blockchain confirm
+monerod prune_blockchain confirm
+monerod --detach
+monerod prune_blockchain confirm
+monerod
+killall monerod
+monerod
+sudo btm
+killall monerod
+sudo btm
+kill monerod
+sudo btm
+sudo btm
+nv 
+monero-wallet-cli
+caffeinate
+cd x/keio
+ll
+..
+..
+cd .bitmonero
+ll
+cd lmdb
+ll
+bu
+brew upgrade --cask wezterm-nightly --no-quarantine --greedy-latest\
+
+brew install --cask wezterm-nightly --no-quarantine --greedy-latest\
+
+brew install --cask wezterm-nightly --no-quarantine
+monerod
+cd .bitmonero/lmdb
+ll
+monerod --prune-blockchain --max-concurrency=10
+monerod --prune-blockchain 
+ll
+..
+ll
+..
+rm -rf .bitmonero/lmdb
+monerod --prune-blockchain 
+monerod --prune-blockchain --max-concurrency=10
+bu
+brew install --cask wezterm-nightly
+brew tap homebrew/cask-versions\
+
+brew install --cask wezterm-nightly
+rm -rf /Applications/WezTerm.app
+brew install --cask wezterm-nightly
+bu
+brew install --cask signal
+brew install --cask telegram
+caffeinate
+monerod --prune-blockchain --max-concurrency=10
+caffeinate
+bu
+yabai --stop-service && yabai --start-service
+nv a.nv
+bu
+nv x/p/list.md
+bu
+bu
+nv .config/yabai/yabairc
+yabai --stop-service
+yabai --start-service
+nv .config/yabai/yabairc
+yabai --stop-service
+yabai --start-service
+nv
+brew tap Playcover/playcover
+playcover-nightly
+brew install --cask playcover-nightly
+cd x/p
+nv list.md
+cd
+cd git
+cd x/git
+ll
+git clone https://github.com/official-stockfish/Stockfish/
+cd Stockfish
+cd src\
+
+make help\
+
+make -j build ARCH=apple-silicon
+make -j build ARCH=apple-silicon
+ll
+./stockfish
+sudo btm
+..
+..
+git clone
+git clone https://github.com/fitztrev/lichess-tauri
+cd lichess-tauri
+ll
+pnpm install
+pnpm run tauri dev\
+
+pnpm run tauri dev\
+
+pnpm update tauri-cli
+npm run tauri dev
+..
+..
+..
+bu
+bu
+cd x/git/lichess-tauri
+npm run tauri dev
+npm run tauri dev
+nv temp.md
+cd x/git/lichess-tauri
+npm run tauri dev
+npm run tauri dev
+npm run tauri dev
+npm run tauri dev
+stockfish
+cd x/git/
+ll
+cd Stockfish
+ll
+cd src
+ll
+./stockfish
+..
+..
+cd lichess-tauri
+ll
+npm run tauri dev
+npm run tauri dev
+..
+cd Stockfish
+ll
+cd src
+./stockfish
+./stockfish
+./stockfish
+./stockfish
+./stockfish
+./stockfish
+./stockfish
+./stockfish
+./stockfish
+cd x/git/lich
+cd x/git/lichess-tauri
+npm run tauri dev
+..
+..
+cd p
+cat list.md
+bu
+bu
+bu
+monerod --prune-blockchain --max-concurrency=10
+nv
+monero-wallet-cli
+monero-wallet-cli
+monero-wallet-cli
+monero-wallet-cli
+monero-wallet-cli
+cd x/
+..
+ll
+cd .bitmonero
+ll
+..
+ll
+nv monero-wallet-cli.log
+cd .config
+git add * .*
+git commit -m "daily stuffs"
+git push
+cd x/keio
+cd class/policymanagement
+ll
+ll
+rm -rf 2023\ Policy\ Management\ 12.pptx
+..
+git add *
+git commit -m "yes"
+git push
+sudo btm
+cd
+cd .config
+ll
+cd nvim/
+ll
+cd lua
+ll
+cd config
+ll
+nv options.lua
+..
+..
+..
+git add * 
+git commit -m "j"
+git push
+monerod --prune-blockchain --zmq-pub tcp://127.0.0.1:18083 --out-peers 64 --in-peers 32 --add-priority-node=node.supportxmr.com:18080 --add-priority-node=nodes.hashvault.pro:18080 --disable-dns-checkpoints --enable-dns-blocklist
+monerod --prune-blockchain --zmq-pub tcp://127.0.0.1:18083 --out-peers 64 --in-peers 32 --add-priority-node=node.supportxmr.com:18080 --add-priority-node=nodes.hashvault.pro:18080 --disable-dns-checkpoints --enable-dns-blocklist
+cd x/keio
+ll
+cd schedule
+ll
+0704.md
+nv 0704.md
+nv 0704.md
+nv 0704.md
+nv 0704.md
+..
+git add *
+git commit -m "feelin lazy"
+git push
+cd .ssh
+ll
+cd config
+ll
+gpg
+ll
+gpg -K
+tldr gpg
+gpg --export --armor B325353D48CB9F408653BC11E4674779E146AA80
+gpg --export --armor loishi1312@gmail.com
+tldr ssh keygen
+ssh-keygen 
+rm -rf .ssh/id_rsa .ssh/id_rsa.pub
+ssh-keygen -t ed25519 -b 4096 
+cat .ssh/id_ed25519.pub
+cd .ssh/id_ed25519
+cd .ssh/
+ll
+cat id_ed25519
+cat id_ed25519.pub
+nv x/p/list.md
+monerod --prune-blockchain --zmq-pub tcp://127.0.0.1:18083 --out-peers 64 --in-peers 32 --add-priority-node=node.supportxmr.com:18080 --add-priority-node=nodes.hashvault.pro:18080 --disable-dns-checkpoints --enable-dns-blocklist
+monerod --prune-blockchain --zmq-pub tcp://127.0.0.1:18083 --out-peers 64 --in-peers 32 --add-priority-node=node.supportxmr.com:18080 --add-priority-node=nodes.hashvault.pro:18080 --disable-dns-checkpoints --enable-dns-blocklist
+monerod --prune-blockchain --zmq-pub tcp://127.0.0.1:18083 --out-peers 64 --in-peers 32 --add-priority-node=node.supportxmr.com:18080 --add-priority-node=nodes.hashvault.pro:18080 --disable-dns-checkpoints --enable-dns-blocklist
+bu
+cd x/git/lichess-tauri
+npm dev run tauri
+npm run tauri dev
+..
+..
+cd git/lichess-tauri
+npm run tauri dev
+..
+cd Stockfish
+git fetch
+git pull
+ll
+cd src
+make clean\
+make build\
+make net
+ll
+..
+..
+cd lichess-tauri
+npm run tauri dev
+..
+cd Stockfish
+..
+rm -rf Stockfish
+git clone https://github.com/official-stockfish/Stockfish
+cd src\
+
+cd Stockfish/src
+make -j build ARCH=apple-silicon
+.
+..
+..
+cd lichess-tauri
+npm run tauri dev
+..
+..
+..
+bu
+cd x/keio/
+git add *
+git commit -m 
+git commit -m "daily commit"
+git push
+bu
+nv
+bu
+nv
+bu
+bu
+cd x/git
+git lfs install\
+git clone https://huggingface.co/nichijoufan777/openai.gpt4
+nv a.nv
+ll
+git lfs install\
+git clone https://huggingface.co/nichijoufan777/stable-diffusion-xl-base-0.9
+ll
+cd stable-diffusion-xl-base-0.9
+ll
+..
+rm -rf stable-diffusion-xl-base-0.9
+brew install --cask raycast
+brew uninstall --cask raycast
+print $COLORTERM
+print -P '%B%F{red}co%F{green}lo%F{blue}rs%f%b'
+brew install zsh-syntax-highlighting
+brew install zsh-autosuggestions
+brew install zsh-autocomplete
+nv .config/zsh/.zshrc
+source .config/zsh/.zshrc
+nv .config/zsh/.zshrc
+source .config/zsh/.zshrc
+nv .config/zsh/.zshrc
+cd .config
+git add * .*
+git commit -m "zsh should be cool now"
+git push
+yabai --start-service
+yabai --stop-service
+yabai --start-service
+brew install zsh-autocomplete
+nv .config/zsh/.zshrc
+nv zsh/.zshrc
+source zsh/.zshrc
+cd alacritty
+..
+nv zsh/.zshrc
+source zsh/.zshrc
+cd .config
+git add * .*
+git commit -m "zsh should be cool now"
+git push
+cat wezterm/wezterm.lua
+nv wezterm/wezterm.lua
+nv zsh/.zshrc
+source zsh/.zshrc
+nv zsh/.zshrc
+source zsh/.zshrc
+nv zsh/.zshrc
+source zsh/.zshrc
+ljss
+s
+cd .config 
+nv zsh/.zshrc
+source zsh/.zshrc
+source zsh/.zshrc
+nv zsh/.zshrc
+source zsh/.zshrc
+source zsh/.zshrc
+nv zsh/.zshrc
+source zsh/.zshrc
+git add * .* -u 
+git commit -m "zsh should be cool now"
+git p
+git push
+nv tmp.md
+bu
+bu
+nv yabai/yabairc
+yabai --stop-service
+yabai --start-service
+zoxide
+cd .config
+nv zsh/.zshrc
+whence
+bu
+cd .config
+ll
+nv wezterm/wezterm.lua
+nv zsh/.zshrc
+source zsh/.zshrc
+git add * .* -u 
+git commit -m "daily commit"
+git push
+brew install --cask spotify
+cd x/code
+ll
+cd atcoder
+ll
+cargo install cargo-compete
+cargo compete init
+cargo compete init atcoder
+cargo compete login
+cargo compete login atcoder
+ll
+cargo compete a contest abc309
+ll
+cargo compete init
+cargo compete init atcoder
+ll
+cargo compete participate abc309
+cargo compete participate 309
+cargo compete participate atcoder abc309
+ll
+cargo compete new abc309
+ll
+cd abc309
+ll
+ll
+cd src
+ll
+ll
+cd bin
+ll
+..
+..
+nv src/bin/a.rs
+..
+..
+cd atcoder
+ll
+cd abc309
+ll
+nv b.cpp
+gpp
+g++ b.cpp && ./a.out
+nv b.cpp
+g++ b.cpp && ./a.out
+nv b.cpp
+nv b.cpp
+g++ b.cpp && ./a.out
+ll
+nv b.cpp
+cat b.cpp
+clang++ b.cpp
+nv b.cpp
+vim b.cpp
+g++ b.cpp && ./a.out
+ll
+./a.out
+nv b.py
+python3 c.py
+python3 b.py
+nv b.py
+python3 b.py
+nv b
+nv b.py
+python3 b.py
+nv b.py
+python3 b.py
+nv b.cpp
+g++ b.cpp && ./a.out
+vim b.cpp
+g++ b.cpp && ./a.out
+./a.out
+nv b.cpp
+nv b.cpp
+g++ b.cpp && ./a.out
+g++ b.cpp && ./a.out
+g++ b.cpp && ./a.out
+nv b.py
+python3 b.py
+python3 b.py
+nv b.py
+python3 b.py
+nv b.py
+python3 b.py
+cd x/code/
+ll
+cd atcoder 
+ll
+cd abc309
+ll
+nv b.cpp
+g++ b.cpp && ./a.out
+python3 b.py
+python3 b.py
+python3 b.py
+01010
+01001
+10110
+00110
+01010
+echo $0
+bu
+nv
+bu
+bu
+brew install --cask anki
+cd x/keio/class/cn1
+ll
+nv 7.csv
+nv 6.csv
+nv 5.csv
+..
+..
+git add * .* -u 
+git add *
+git add .* -u
+git push
+git commit -m "prepping for the finals"
+git push
+brew search noto
+brew install --cask font-noto-sans-cjk font-noto-serif-cjk
+cd x/
+cd keio
+git add *
+git commit -m "prepping for the finals"
+git push
+bu
+nv
+nv
+bu
+ll
+cd x/
+ll
+cd drug
+ll
+nv list.md
+cd x/git/lichess-tauri
+git pull
+git fetch
+ll
+cd src
+..
+npm run tauri dev
+..
+ll
+cd Stockfish
+ll
+git fetch
+git pull
+cd src
+ll
+make -j build ARCH=apple-silicon
+ll
+..
+..
+cd lichess-tauri
+npm run tauri dev
+v
+npm install @tauri-apps/cli@latest @tauri-apps/api@latest\
+\
+
+cargo update
+npm run tauri dev
+npm run tauri dev
+npm run tauri dev
+npm run tauri dev
+bu
+bu
+brew uninstall --cask wezterm-nightly
+yabai --stop-service
+yabai --start-service
+nv x/p/list.md
+bu
+nv tmp
+cd x/keio/class/cn1
+nv 7.md
+..
+..
+git add * && git commit -m "yeeeee"
+git push
+..
+..
+bu
+cd x/keio/class/
+ll
+cd policymanagement
+ll
+nv final.md
+nv final.md
+nv final.md
+git add * && git commit -m "finals coming up"
+git push
+yabai --restart-service
+cd x/git/lichess-tauri
+npm run tauri dev
+npm run tauri dev
+npm run tauri dev
+bu
+yabai --restart-service
+..
+ll
+cd cs1
+ll
+nv 12.md
+cd x/keio/class/cn1
+ll
+nv 7.md
+..
+..
+git add * && git commit -m "finals coming up"
+git push
+cd x/keio
+ll
+cd prep
+ll
+cd EI
+ll
+cd a
+ll
+nv 2010.md
+nv 2017.md
+nv 2021.md
+..
+ll
+ll
+ll
+..
+ll
+nv EI2023draft.md
+nv PM/a/2012.md
+..
+..
+ll
+sudo btm
+..
+cd
+cd .config/yabai/
+nv yabairc
+cd x/git/lichess-tauri
+npm run tauri dev
+python3 
+brew install --cask microsoft-edge-beta
+python3 
+python3 
+ll
+nv test.py
+python3 test.py
+python3 test.py
+nv test.py
+python3 test.py
+nv test.py
+python3 test.py
+nv test.py
+python3 test.py
+nv test.py
+cd x/keio/class/cs1
+ll
+nv 13.md
+l
+ll
+nv 12.md
+neofetch
+bu
+cd
+cd x/p
+< list.md
+cd x/keio/class/pmh
+ll
+nv final.md
+nv fin
+cd x/keio/class/polphil
+ll
+ll
+ll
+mv 12_slide.pdf 12_slides.pdf
+bu
+rm -rf /Applications/WezTerm.app
+bu
+brew install --cask wezterm-nightly
+nv
+nv
+brew install qpdf
+cd x/keio/class/polphil
+tldr qpdf
+qpdf --help
+qpdf --help=--option
+  qpdf --help=--option
+ll
+open 9_resume.pdf
+qpdf --decrypt --replace-input 10_resume.pdf
+qpdf --decrypt --replace-input 10_slides.pdf
+qpdf --decrypt --replace-input 10_sources.pdf
+qpdf --decrypt --replace-input 11_resume.pdf
+qpdf --decrypt --replace-input 11_slides.pdf
+qpdf --decrypt --replace-input 11_sources.pdf
+qpdf --decrypt --replace-input 12_resume.pdf
+qpdf --decrypt --replace-input 12_slides.pdf
+qpdf --decrypt --replace-input 12_sources.pdf
+qpdf --decrypt --replace-input 13_resume.pdf
+qpdf --decrypt --replace-input 13_slides.pdf
+qpdf --decrypt --replace-input 13_sources.pdf
+ll
+open 13_resume.pdf 13_slides.pdf 13_sources.pdf
+nv x/keio/class/pmh
+cd x/git
+ll
+git clone https://github.com/loishi/keiochess.club
+ll
+cd keiochess.club
+ll
+npm create astro@latest
+ll
+..
+rm -rf keiochess.club
+ll
+npm create astro@latest
+ll
+cd keiochess.club
+ll
+git init
+ll
+git remote add origin https://github.com/loishi/keiochess.club
+ll
+git add .
+git commit -m "initial commit"
+git branch -M main
+git push -u origin main
+git fetch
+ll
+git add * .*
+git commit -m "initial commit"
+git push
+git push -u origin main
+git pull
+ll
+git pull -u origin main
+git pull  origin main
+tldr git rebase
+tldr git merge
+git merge 
+git rebase main
+git rebase origin main
+ll
+git rebase -i
+..
+rm -rf keiochess.club
+git clone https://github.com/loishi/keiochess.club
+npm create astro@latest
+npm create astro@latest
+ll
+cd keiochess.club
+ll
+..
+cd tutorial
+ll
+..
+rm -rf tutorial
+cd keiochess.club
+ll
+pnpm install astro
+ll
+nv package.json
+ll
+mkdir src/pages
+mkdir src/
+mkdir src/pages
+nv src/pages/index.astro
+..
+cd keiochess.club
+ll
+mkdir public
+ll
+nv public/robots.txt
+nv public/robots.txt
+nv astro.config.mjs
+ll
+npm astro add svelte
+ll
+tree
+nv tsconfig.json
+ll
+nv src/env.d.ts
+ll
+npm run dev
+ll
+npm install @astrojs/svelte
+ll
+nv package.json
+npm run dev
+ll
+nv astro.config.mjs
+npm astro dev
+nv package.json
+npm astro dev
+git add * .* -u
+git commit -m "astro\
+\
+
+git commit -m "astro\!"\
+\
+
+git add *
+git commit -m "astro\!"\
+\
+
+git push
+ll
+npm create astro@latest -- --template framework-svelte
+npm run dev
+ll
+pnpm remove astro
+ll
+cd node_modules
+ll
+..
+git add -u
+git add * -u
+git add .* -u
+git commit -m "bye astro"
+git  push
+ll
+rm -rf tsconfig.json svelte.config.js src/*
+rm -rf public
+rm -rf pnpm-lock.yaml package.json node_modules astro.config.mjs
+ll
+rm -rf src
+git add * -u
+git add .
+git add .* -u
+git commit -m "rebuilding\
+"
+git push
+npm init svelte@latest
+..
+npm init svelte@latest keiochess.club
+pnpm create svelte@latest keiochess.club
+cd keiochess.club
+ll
+pnpm install
+git init
+git add -A
+git commit -m "rebuilding"
+git push
+pnpm run dev
+ll
+nv svelte.config.js
+npm i --save-dev @sveltejs/adapter-cloudflare
+cd src
+ll
+nv app.d.ts
+ll
+..
+ll
+ll .svelte-kit
+npm --version
+node --version
+nv svelte.config.js
+ll
+nv app.d.ts
+ll
+nv src/app.d.ts
+git add -A
+git commit -m "svelte time"
+git push
+..
+pnpm dlx degit importantimport/urara
+ll
+pnpm dlx degit importantimport/urara urara
+pnpm dlx degit importantimport/urara urara
+ll
+rm -rf urara
+pnpm dlx degit importantimport/urara urara
+cd urara
+pnpm i
+npm dev
+nv tmp
+nv tmp
+nv tmp.txt
+vim tmp.md
+cd .config/nvim/
+ll
+nv lua/config/options.lua
+..
+git add -A
+git commit -m "some mods"
+git push
+nv
+ll
+git add -A
+git commit -m "some mods"
+git push
+..
+cd x/keio/class/pmh
+ll
+nv finalmd
+nv final.md
+nv tmp2
+nv
+ll
+nv final2.md
+nv final2.md
+..
+..
+git add -A
+git commit -m "pmh done\?" 
+git push
+bu
+bu
+nv
+cd x/git
+ll
+cd Stockfish
+ll
+git fetch
+git pull
+make -j build ARCH=apple-silicon
+cd src
+make -j build ARCH=apple-silicon
+ll
+..
+..
+ll
+cd lichess-tauri
+pnpm run tauri dev\
+
+git fetch \
+
+git pull
+pnpm run tauri dev\
+
+..
+cd Stockfish
+ll
+cd src
+./stockfish
+./stockfish
+bu
+cd x/p
+ll
+< list.md
+cd x/p/
+..
+ll
+cd keio
+ll
+cd class/policymanagement
+ll
+< final.md 
+cd x/keio/
+..
+cd git/lichess-tauri
+pnpm run tauri dev\
+
+..
+cd Stockfish
+git fetch
+git pull
+make -j build ARCH=apple-silicon
+cd src
+make -j build ARCH=apple-silicon
+..
+..
+cd git/lichess-tauri
+cd lichess-tauri
+git fetch
+git pull
+pnpm run tauri dev\
+
+pnpm run tauri dev\
+
+bu
+cd x/git/lichess-tauri
+pnpm run tauri dev\
+
+bi
+bu
+python3
+bu
+bu
+bu
+bu
+ls -lah ~/Library/Caches/Homebrew/api/
+brew doctor
+brew update
+cd x/keio/
+ll
+cd class
+ll
+mkdir pe
+cd pe
+ll
+nv final.md
+nv final.md
+nv final.md
+bu
+bu
+nv
+nv
+nv
+cd x/keio
+ll
+cd class/polphil
+ll
+qpdf --decrypt  14_ãƒ£¬ã‚¸ãƒ£¥ãƒ£ƒ.pdf 14_resume.pdf
+ll
+qpdf --decrypt  14_è¬ƒ»ç¾©ã‚¹ãƒ£©ã‚¤ãƒ£ƒ©.pdf 14_slides.pdf
+qpdf --decrypt  æƒªƒ¼ç²ƒ«è³ƒ§æƒ¶ƒ¹_ç¬¬14åƒ»ƒ¾è¿ƒ±ä»£ãƒ«ã‚ƒ©çƒ¯¾ä»£ã¸.pdf 14_slides.pdf
+ll
+qpdf --decrypt  14_è¬ƒ»ç¾©ã‚¹ãƒ£©ã‚¤ãƒ£ƒ©.pdf 14_slides.pdf
+qpdf --decrypt  æƒªƒ¼ç²ƒ«è³ƒ§æƒ¶ƒ¹_ç¬¬14åƒ»ƒ¾è¿ƒ±ä»£ãƒ«ã‚ƒ©çƒ¯¾ä»£ã¸.pdf 14_sources.pdf
+ll
+rm -rf 14_ãƒ£¬ã‚¸ãƒ£¥ãƒ£ƒ.pdf 14_è¬ƒ»ç¾©ã‚¹ãƒ£©ã‚¤ãƒ£ƒ©.pdf æƒªƒ¼ç²ƒ«è³ƒ§æƒ¶ƒ¹_ç¬¬14åƒ»ƒ¾è¿ƒ±ä»£ãƒ«ã‚ƒ©çƒ¯¾ä»£ã¸.pdf
+mv å­¦æƒ¼ƒ¿æƒ¼«è©¦é¨ƒ³ã«ã¤ãƒ¤ã¦.pdf aboutfinal.pdf
+bu
+brew analytics off\
+
+bu
+bu\
+
+nv
+nv
+bu
+nv
+bu
+bu
+vy
+bu
+bu
+bu
+cd x/git
+cd Stockfish
+git fetch 
+git pull
+cd src
+make -j build ARCH=apple-silicon
+..
+..
+cd lichess-tauri
+git fetch
+npm dev run tauri
+npm run tauri dev
+..
+cd
+bu
+bu
+nv
+nv tmp.md
+bu
+cd x/git
+cd lichess-tauri
+pnpm run tauri dev\
+
+xcode-select --install
+bu
+ rm -rf /Applications/WezTerm.app
+brew install --cask wezterm-nightly
+cd x/git/lichess-tauri
+pnpm run tauri dev\
+
+..
+...
+..
+..
+bu
+nv
+nv
+nv
+brew install ripgrep
+rg
+brew install fd
+fd
+tldr qpdf
+qpdf --help
+qpdf --help=--empty
+qpdf --empty --pages 2023\ Policy\ Management\ [1-9].pdf 2023\ Policy\ Management\ 1[0-9].pdf --decrypt -- 2023pm.pdf
+qpdf --empty --pages 2023\ Policy\ Management\ [1-9].pdf 2023\ Policy\ Management\ 1[0-9].pdf -- --decrypt 2023pm.pdf
+ll
+nv summary1.md
+nv summary.md
+< final.md
+ll
+nv humansecuritysum.md
+cp summary1.md summary2.md
+nv summary2.md
+nv summary1.md
+nv prompt.md
+cd x/keio/class/policymanagement
+nv summary.md
+nv summary.md
+ll
+cp summary.md summary1.md
+nv summary
+nv summary1.md
+nv summary.md
+cd
+cd x/git/lichess-tauri
+pnpm run tauri dev\
+
+..
+..
+cd keio
+git add -A
+git commit -m "oh no my grades"
+git push
+bu
+nv
+nv
+bu
+bu
+brew install --cask steam
+cd x/keio/class/prometh
+ll
+nv sansu1.md
+brew install --cask steam
+brew reinstall --cask steam
+nv
+cd x/keio/class/prometh
+ll
+nv sansu1.md
+ll
+nv sansu1.md
+nv sansu1.md
+ll
+nv sansu1.md
+nv 
+sudo btm
+yabai --stop-service
+brew install molten-vk
+yabai --start-service
+yabai --start-service
+yabai --restart-service
+brew install --cask vscodium\
+
+nv x/p/list.md
+sudo btm
+bu
+open *_slides.pdf
+open *_resume.pdf
+open *_resume.pdf
+yabai --restart-service
+cd x/keio/class/polphil
+ll
+nv final.md
+ll
+bu
+bu
+nv tmp.md
+..
+cd prometh
+ll
+nv sansu.py
+bu
+nv
+nv x/p/list.md
+cd x/keio/
+git push
+bu
+sudo btm
+bu
+bu
+nv
+ll
+..
+cd keio
+ll
+bu
+ll
+lll
+ll
+cd x/
+ll
+cd ramdom
+cd random
+ll
+nv visainquire.md
+ll
+nv pi.md
+bu
+..
+ls
+mkdir fit
+cd fit
+bu
+bu
+ip
+ipconfig
+nv
+nv tmp.md
+ifconfig
+sudo ifconfig en0 ether 4c:fc:aa:bd:7d:b0
+sudo ifconfig en0 ether 4C:FC:AA:BD:7D:B0
+sudo ifconfig en0 ether 4C:FC:AA:BD:7D:B0
+sudo ifconfig en0 ether 4C:FC:AA:BD:7D:B0
+sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -z\
+
+sudo ifconfig en0 ether 4C:FC:AA:BD:7D:B0
+ifconfig en0 ether 4c:fc:aa:bd:7d:b0
+sudo ifconfig en0 ether 4c:fc:aa:bd:7d:b0
+networksetup -setairportpower en0 on
+sudo ifconfig en0 ether 4c:fc:aa:bd:7d:b0
+brew install spoof-mac
+brew uninstall spoof-mac
+pnpm install spoof -g
+ifconfig 
+sudo ifconfig en0 ether 4c:fc:aa:bd:7d:b0
+networksetup -setairportpower en0 off
+networksetup -setairportpower en0 on
+sudo ifconfig en0 ether 4c:fc:aa:bd:7d:b0
+ifconfig
+networkQuality
+networkQuality
+bu
+ifconfig
+networksetup -setairportpower en0 off
+networksetup -setairportpower en0 on
+ifconfig
+networkQuality
+bu
+sudo reboot
+brew install --cask microsoft-edge-dev
+nnn
+lll
+ll
+cd Applications
+ll
+..
+..
+cd
+cd /Applications
+ll
+rm -rf Microsoft\ Edge\ Beta.app
+cd
+cd /Library/Application\ Support
+ll
+cd Microsoft
+ll
+..
+ll
+..
+ll
+cd Caches
+ll
+..
+cd Microsoft
+ll
+..
+ll
+cd Application\ Support
+ll
+brew uninstall microsoft-edge-beta
+ll
+cd ProApps/
+ll
+..
+cd Microsoft
+ll
+cd EdgeUpdater
+ll
+..
+ll
+..
+ll
+ll
+..
+ll
+..
+..
+cd
+bu
+rm -rf /Applications/WezTerm.app
+bu
+brew install --cask wezterm-nightly
+nv
+< x/p/list.md
+bu
+brew install --cask wezterm-nightly
+brew reinstall --cask wezterm-nightly
+bu
+nv
+cd x/keio
+ll
+git add -A
+git commit -m "attempting to make it"
+git push
+bu
+bu
+nv
+cd x/keio
+ll
+nv LICENSE
+..
+..
+cd .config
+nv LICENSE
+git add -A
+git commit -m "can I?"
+git push
+sudo btm
+cd x/git
+ll
+cd keiochess.club
+ll
+..
+cd 
+cd x/git
+ll
+cd urara
+ll
+git fetch
+..
+rm -rf urara
+git clone https://github.com/importantimport/urara
+ll
+cd urara
+ll
+npx degit importantimport/urara my-blog && cd my-blog
+ll
+cd my-blog
+ll
+pnpm dev
+pnpm build
+..
+pnpm build
+pnpm dev
+pnpm dlx degit importantimport/urara
+..
+cd urara
+ll
+cd src
+ll
+..
+pnpm dlx degit importantimport/urara
+pnpm dlx degit importantimport/urara --force
+pnpm dlx degit importantimport/urara my-blog && cd my-blog
+pnpm dlx degit importantimport/urara my-blog --force && cd my-blog
+ll
+pnpm i
+pnpm dev
+ll
+cd ..
+..
+ll
+cd keiochess.club
+git fetch
+ll
+pnpm dlx degit importantimport/urara my-blog && cd my-blog 
+ll
+rm -rf *
+ll
+..
+ll
+cd my-blog
+ll
+..
+ll
+rm -rf *
+ll
+rm -rf .npmrc .svelte-kit
+pnpm dlx degit importantimport/urara my-blog && cd my-blog 
+ll
+..
+ll
+mv my-blog/ urara/
+ll
+cd urara
+ll
+pnpm i
+pnpm dev
+ll
+cd src
+ll
+cd static
+ll
+cd assets
+ll
+..
+ll
+ll hello-world
+cd hello-world/elements
+ll
+..
+cd toc-disabled
+ll
+..
+..
+ll
+..
+ll
+cd lib/config
+ll
+nv site.ts
+pnpm dev
+nv site.ts
+nv site.ts
+pnpm dev
+..
+..
+..
+..
+git add -A
+git commit -m "Rebuilding the website using urara"
+git push
+ll
+cd urara/
+ll
+cd urara
+ll
+..
+ll
+cd .svelte-kit
+ll
+cd generated
+ll
+nv root.svelte
+..
+..
+pnpm dev
+pnpm build
+ll
+ll .svelte-kit/output
+ll
+ll
+cd src
+ll
+nv app.html
+..
+nv src/lib/config/site.ts
+git add -A && git commit -m "changed language" 
+git push
+ll
+cd .svelte-kit
+ll
+cd generated
+ll
+..
+cd output
+ll
+cd client
+ll
+..
+cd prerendered
+ll
+cd pages/
+ll
+cd ../../../../
+ll
+pnpm build CF_PAGES=true
+echo CF_PAGES=true && pnpm build 
+ll
+nv src/lib/config/site.ts
+git add -A && git commit -m "changed language" 
+git commit -m "Modified description" 
+git commit --amend
+git push
+cd
+cd x/git
+ll
+cd Stockfish
+ll
+git fetch
+git pull
+ll
+cd src
+ll
+make -j build ARCH=apple-silicon
+..
+..
+cd lichess-tauri
+pnpm run tauri dev\
+
+bu
+bu
+git fetch
+cd
+bu
+ll
+cd x/
+ll
+cd keio
+ll
+mkdir chess
+cd chess
+ll
+nv websiteplan.md
+cd
+cd .config/]
+cd .config/
+nv nvim/lua/config/options.lua
+git add -A && git commit -m "How did I not know this" 
+git push
+cd 
+cd x/git
+ll
+cd urara
+pnpm dev
+cd urara
+pnpm dev
+..
+..
+ll
+cd keiochess.club/urara
+ll
+pnpm dev
+ll
+nv vite.config.ts
+ll
+nv svelte.config.ts
+nv svelte.config.js
+..
+cp urara/ ../urara
+cp -r urara/ ../urara
+ll
+ rm -rf ../urara
+ll
+cp -r urara/ ../urara
+ll
+rm -rf urara
+ll
+pnpm create svelte@latest skeleton
+ll
+rm -rf skeleton
+ll
+npm create skeleton-app@latest my-skeleton-app\
+
+cd my-skeleton-app
+ll
+pnpm i
+pnpm dev
+..
+rm -rf my-skeleton-app
+npm create skeleton-app@latest skeleton\
+
+cd skeleton\
+
+pnpm dev
+ll
+nv svelte.config.js
+nv src/app.d.ts
+ll
+nv
+nv src/routes/+page.svelte
+pnpm i
+pnpm dev
+pnpm i --save-dev @sveltejs/adapter-cloudflare
+pnpm dev
+nv src/routes/+page.svelte
+nv src/routes/+page.svelte
+nv src/routes/+page.svelte
+pnpm dev
+..
+git add -A && git commit -m "rebuilding from scratch using Skeleton" 
+git push
+bu
+bu
+nv
+nv
+cd x/p/
+< x/p/list.md
+< list.md
+< x/p/list.md
+bu
+nv
+sudo btm
+sudo btm
+sudo btm
+ll
+cd x/git/Stockfish
+ll
+git fetch
+git pull
+..
+cd lichess-tauri
+git fetch
+pnpm run tauri dev\
+
+..
+git clone https://github.com/rooklift/nibbler
+cd nibbler
+ll
+pnpm i -g electron
+pnpm .
+ll
+cd files
+ll
+cd src/
+ll
+..
+ll
+cd scripts
+ll
+nv builder.py
+sh install.sh
+brew install electron
+..
+..
+cd files/src
+ll
+electron .
+ll
+electron .
+pnpm install electron
+electron .
+ll
+pnpm run electron .
+pnpm run 
+nv ../scripts/builder.py
+..
+..
+..
+git clone https://github.com/cutechess/cutechess
+cd cutechess
+ll
+brew install qt
+mkdir build
+cmake ..
+cd build
+cmakke ..
+brew install ninja
+cmake -G Ninja ..
+ninja
+ll
+./cutechess
+sudo btm
+sudo btm
+ll
+./cutechess
+cp cutechess /usr/bin/cutechess
+sudo cp cutechess /usr/bin/cutechess
+cutechess
+sudo rm -rf /usr/bin/cutechess
+ll
+sudo ln -s cutechess /usr/local/bin/
+sudo ln -s cutechess /usr/local/bin/cutechess
+ll /opt/homebrew/bin
+ll
+sudo ln -s cutechess /opt/homebrew/bin/cutechess
+cutechess
+sudo cutechess
+rm -rf /opt/homebrew/bin/cutechess
+ll
+./cutechess
+./cutechess
+..
+..
+git clone https://tablebase.lichess.ovh/tables/standard/3-4-5/
+curl https://tablebase.lichess.ovh/tables/standard/3-4-5/
+ll
+mkdir tablebases
+cd tablebases
+ll
+tldr curl
+curl https://tablebase.lichess.ovh/tables/standard/3-4-5/*.rtbw https://tablebase.lichess.ovh/tables/standard/3-4-5/*.rtbz
+curl -0 https://tablebase.lichess.ovh/tables/standard/3-4-5/
+ll
+curl -0 https://tablebase.lichess.ovh/tables/standard/3-4-5/*.rtbz
+curl -0 https://tablebase.lichess.ovh/tables/standard/3-4-5/*
+curl -0 https://tablebase.lichess.ovh/tables/standard/3-4-5/KBBBvK.rtbw 
+ll
+curl -o https://tablebase.lichess.ovh/tables/standard/3-4-5/KBBBvK.rtbw 
+brew install wget
+wget https://tablebase.lichess.ovh/tables/standard/
+ll
+tldr wget
+wget --mirror --no-parent https://tablebase.lichess.ovh/tables/standard/3-4-5/
+ll
+cd tablebase.lichess.ovh
+ll
+cd tables
+ll
+cd standard
+ll
+cd 3-4-5
+ll
+..
+..
+..
+..
+rm -rf tablebase.lichess.ovh
+ll
+wget https://tablebase.lichess.ovh/tables/standard/3-4-5/*
+wget 'https://tablebase.lichess.ovh/tables/standard/3-4-5/*'
+ll
+wget --mirror --no-parent 'https://tablebase.lichess.ovh/tables/standard/3-4-5/*'
+wget --mirror --no-parent 'https://tablebase.lichess.ovh/tables/standard/3-4-5/*.rtbz'
+tldr wget
+wget -r -A rtbz,rtbw https://tablebase.lichess.ovh/tables/standard/3-4-5/
+ll
+cd tablebase.lichess.ovh/tables/standard/3-4-5
+ll
+..
+ll
+..
+..
+..
+rm -rf tablebase.lichess.ovh
+wget -r -A rtbz,rtbw http://tablebase.sesse.net/syzygy/3-4-5/
+wget -r -A rtbz,rtbw http://tablebase.sesse.net/syzygy/3-4-5/index.html
+wget  -A rtbz,rtbw http://tablebase.sesse.net/syzygy/3-4-5/
+ll
+rm -rf *
+rm -rf *
+wget http://tablebase.sesse.net/syzygy/3-4-5/
+rm -rf index.html
+wget --mirror -A rtbz,rtbw http://tablebase.sesse.net/syzygy/3-4-5/
+wget --mirror -A rtbz,rtbw http://tablebase.sesse.net/syzygy/3-4-5/KBBBvK.rtbw
+rm -rf *
+ll
+wget --mirror -A rtbz,rtbw -e robots=off http://tablebase.sesse.net/syzygy/3-4-5/KBBBvK.rtbw
+wget --mirror -A rtbz,rtbw -e robots=off http://tablebase.sesse.net/syzygy/3-4-5/*
+wget --mirror -A rtbz,rtbw -e robots=off http://tablebase.sesse.net/syzygy/3-4-5/
+ll
+cd tablebase.sesse.net
+ll
+rm -rf 3+3 3-4-5 3+3-with-pawns 4+2 4+2-with-pawns
+ll
+cd syzygy
+ll
+cd 7-DTZ
+ll
+..
+rm -rf 7-DTZ 7-WDL
+ll
+ll 6-DTZ
+ll 6-WDL
+rm -rf 6-DTZ 6-WDL
+ll
+ll 3-4-5
+..
+mv syzygy ../syzygy
+ll
+..
+rm -rf tablebase.sesse.net
+ll
+cd syz
+cd syzygy
+wget --mirror -A rtbz,rtbw -e robots=off -l1 http://tablebase.sesse.net/syzygy/6-WDL/
+ll
+rm -rf tablebase.sesse.net
+wget --mirror -A rtbz,rtbw -e robots=off -l1 -O 6-WDL http://tablebase.sesse.net/syzygy/6-WDL/
+wget --mirror -A rtbz,rtbw -e robots=off -l1 -O 6-WDL/ http://tablebase.sesse.net/syzygy/6-WDL/
+..
+l
+ll
+wget --mirror -A rtbz,rtbw -e robots=off -l1 -O 6-WDL/ http://tablebase.sesse.net/syzygy/6-WDL/
+wget --mirror -A rtbz,rtbw -e robots=off -l1 http://tablebase.sesse.net/syzygy/6-WDL/
+ll
+mv tablebase.sesse.net/syzygy/6-WDL/ syzygy/6-WDL
+rm -rf syzygy/6-WDL
+mv tablebase.sesse.net/syzygy/6-WDL/ syzygy/6-WDL
+ll
+tree tablebase.sesse.net
+cd tablebase.sesse.net/syzygy
+ll
+..
+..
+ll
+rm -rf tablebase.sesse.net
+cd syzygy
+ll
+cd 6-WDL
+ll
+..
+ll
+mv 3-4-5 ../syzygy
+mv 3-4-5/ ../syzygy
+mv 3-4-5/* ../syzygy
+ll
+cd 3-4-5
+ll
+..
+rm -rf 3-4-5
+ll
+mv 6-WDL/* ../syzygy
+ll
+rm -rf 6-WDL
+ll
+cd x/git/cutechess
+ll
+cd build
+ll
+./cutechess
+bu
+ll
+./cutechess
+..
+..
+cd Stockfish
+git fetch
+git pull
+cd src
+make -j build ARCH=apple-silicon
+..
+ll
+..
+ll
+cd cutechess
+cd build/
+ll
+./cutechess
+cd
+< x/p/list.md
+sudo btm
+..
+..
+cd syzygy
+cd tablebases
+ll
+cd syzygy
+ll
+cd ../../tablebases/syzygy
+ll
+wget http://tablebase.sesse.net/syzygy/7-WDL/KPPPvKPP.rtbw
+brew install --cask appcleaner
+bu
+cd x/git/cutechess/build/
+./cutechess
+..
+cd
+nv
+sudo btm
+cd x/git/cutechess/
+git fetch
+cd
+./x/git/cutechess/build/cutechess
+cd x/git/Stockfish
+git fetch
+..
+cd
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+sudo btm
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+bu
+nv
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+< x/p/list.md
+bu
+nv
+nv
+bu
+nv
+cd x/keio
+ll
+mkdir research
+cd research
+nv kawashima.md
+bu
+nv x/keio/chess/websiteplan.md 
+rustlings watch
+rustlings watch
+cd x/git
+ll
+curl -L https://raw.githubusercontent.com/rust-lang/rustlings/main/install.sh | bash\
+
+rustlings
+ll
+..
+cd rustlings
+ll
+rustlings watch
+rustlings lsp
+rustlings exercises/intro/intro1.rs 
+nv exercises/intro/intro1.rs 
+rustlings watch
+ll
+nv exercises/intro/intro1.rs 
+rustlings watch
+nv exercises/intro/intro2.rs
+rustlings watch
+nv exercises/intro/intro2.rs
+rustlings watch
+nv exercises/intro/intro2.rs
+rustlings watch
+cd exercises
+ll
+< README.md
+nv variables
+rustlings watch
+..
+rustlings watch
+cd exercises
+nv variables/variables2.rs
+nv variables/variables1.rs
+nv 
+nv
+bu
+zoxide keio
+brew install zoxide
+vimtutor
+nv .config/zsh/.zshrc
+source .config/zsh/.zshrc
+vimtutor
+nv
+nvim +tutore
+nvim +tutor
+nvim +Tutor
+nv
+nv --version
+nv
+vim
+nv
+nv :Tutor
+nv +Tutor
+nvim 
+nv .config/nvim/lua/config/lazy.lua
+nv
+cd .config
+z
+zi
+z .config
+z lua/conf
+git add -A && git commit -m "modified zsh and tutor"
+git push
+z keio
+brew install fzf
+zi
+zi
+zi 
+zi
+zi
+zi
+zi conf
+cd
+cd x/keio
+ll
+git add -A && git commit -m "modified zsh and tutor" && git push
+nv
+bu
+./x/git/cutechess/build/cutechess
+< README.md
+< x/p/list.md
+bu
+brew install electron
+brew uninstall electron
+bu
+nv
+bu
+nv
+./x/git/cutechess/build/cutechess
+bu
+nv
+nv
+cd x/git
+git clone https://github.com/clarkerubber/irwin
+ll
+cd irwin
+ll
+nv conf/config.json
+..
+rm -rf irwin
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+cd x/git
+ll
+cd Stockfish
+ll
+git fetch
+git pull
+cd src
+make -j build ARCH=apple-silicon
+..
+..
+ll
+g++ --version
+git clone https://github.com/lichess-org/external-engine
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine /usr/bin/stockfish
+z external-engine
+ll
+< requirements.txt
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine /usr/bin/stockfish
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+pip3 install requests
+pip3 update -U pip
+pip3 install -U pip
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+cd
+< x/p/list.md
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+cd x/git/external-engine
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+~/x/git/Stockfish/src/stockfish
+z x/git/external-engine
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+cd
+./x/git/cutechess/build/cutechess
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+cd x/git/external-engine
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+ssh s23266yk@ccx03.sfc.keio.ac.jp	
+cd
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+brew cu -a
+nv
+bu
+nv
+bu
+cd x/git/Stockfish
+git fetch
+git pull
+cd src
+ll
+make -j profile-build ARCH=apple-silicon
+../..
+cd external-engine
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+yabai --restart-service
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 ~/x/git/external-engine/example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+LICHESS_API_TOKEN=lip_aGMTIKemLwvDvFEPwNjL python3 ~/x/git/external-engine/example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+bu
+nv
+nv
+bu
+nv
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false.
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+bu
+cd x/git/keiochess.club
+ll
+rm -rf skeleton
+npm create skeleton-app@latest skeleton
+pnpm create skeleton-app@latest skeleton
+git pull
+git fetch
+git pull
+ll
+cd skeleton
+pnpm run dev
+pnpm run dev
+pnpm run dev
+pnpm i
+pnpm install 
+pnpm run dev
+pnpm i @sveltejs/adapter-cloudflare
+pnpm run dev
+pnpm run dev
+pnpm run dev
+pnpm run dev
+pnpm run dev
+pnpm run dev
+pnpm i
+pnpm @sveltejs/kit/vite
+pnpm i @sveltejs/kit/vite
+pnpm run dev
+bu
+cd
+cd x/git/Stockfish
+git fetch
+git pull
+cd src
+make -j profile-build ARCH=apple-silicon
+bu
+bu
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+nv x/p/list.md
+nv x/p/list.md
+bu
+bu
+xcode-select --install
+clang++ --version
+clang --version
+gcc --version
+rustc --version
+rustc --version --verbose
+llvm-g++ --version
+cmake --version
+brew install llvm
+llvm-g++ --version
+brew uninstall llvm
+brew uninstall llvm six z3
+brew uninstall six z3
+brew install gcc --HEAD
+brew install gcc --HEAD
+brew install gcc 
+gcc --version
+cd /opt/homebrew/bin
+ll
+ln -s gcc-13 gcc 
+ln -s g++-13 g++
+cd
+gcc
+gcc --version
+gcc --version
+gcc-13 --version
+gcc --version
+g++ --version
+cd x/git/Stockfish
+ll
+cd src
+make -j profile-build ARCH=apple-silicon
+..
+git fetch
+git pull
+cd src
+make -j profile-build ARCH=armv8
+make -j profile-build ARCH=arm64
+make -j build ARCH=apple-silicon
+make -j build ARCH=apple-silicon  COMP=gcc COMPCXX=g++-13
+make -j build ARCH=apple-silicon  COMP=clang
+make -j build ARCH=apple-silicon  COMP=clang COMPXX=clang++
+..
+git fetch
+git pull
+..
+rm -rf Stockfish
+git clone https://github.com/official-stockfish/Stockfish
+cd Stockfish
+ll
+cd src
+make -j profile-build ARCH=apple-silicon  
+ll
+make clean
+make build
+g++ --version
+gcc -march
+gcc --march
+gcc --march-help
+gcc -march-help
+gcc --target-help
+gcc -Q -march=native --help=target | grep -v "\[disabled\]"\
+
+CXXFLAGS='-march=native' make -j profile-build ARCH=aarch64 COMP=gcc COMPCXX=g++-13
+CXXFLAGS='-march=native' make -j profile-build ARCH=aarch64 COMP=gcc 
+make help
+make clean
+make net
+make -j profile-build ARCH=apple-silicon
+make -j profile-build ARCH=apple-silicon COMP=clang
+xcode-select -p
+cd
+cd /Library/Developer/CommandLineTools
+ll
+..
+sudo rm -rf CommandLineTools
+clang
+gcc
+man xcode-select
+cc
+cd
+cd x/git
+ll
+git clone https://github.com/llvm/llvm-project.git
+brew install git
+xcrun
+sudo xcode-select --reset\
+
+sudo xcode-select --install\
+
+cd /Library/Developer/CommandLineTools
+cd /Library/Developer
+ll
+mkdir CommandLineTools
+ sudo mkdir -p /Library/Developer/CommandLineTools   \
+
+ll
+cd sudo touch /Library/Developer/CommandLineTools/.beta   \
+
+sudo touch /Library/Developer/CommandLineTools/.beta   \
+
+ll
+ll
+cd CommandLineTools
+ll
+clang --version
+softwareupdate --list\
+
+softwareupdate --install -a\
+
+clang --version
+softwareupdate --list\
+
+bu
+rm -rf /Applications/WezTerm.app
+brew install --cask wezterm-nightly
+nv
+nv
+nv
+yabai --restart-service
+bu
+< x/p/list.md
+cd
+cd x/git/Stockfish
+ll
+cd src
+ll
+make clean
+ll
+make -j profile-build ARCH=apple-silicon COMP=clang COMPCXX=clang++
+..
+..
+cd cutechess
+git fetch
+git pull
+ll
+cd build
+ll
+cmake clean
+make clean
+cmake ..
+cmake -G Ninja ..
+ninja
+ll
+./cutechess
+./cutechess
+< x/p/list.md
+bu
+bu
+nv
+bu
+cd x/git/keiochess.club
+ll
+pnpm dlx create-next-app@latest next --typescript --tailwind --eslint
+pnpm dlx create-next-app@latest next --typescript --tailwind --eslint
+ll
+cd next
+pnpm dlx shadcn-ui@latest init
+pnpm run dev
+ll
+< README.md
+..
+rm -rf next
+pnpm dlx create-next-app@latest next --typescript --tailwind --eslint
+cd next
+..
+rm -rf next
+pnpm dlx create-next-app@latest next --typescript --tailwind --eslint
+cd next
+pnpm dlx shadcn-ui@latest init
+pnpm i
+pnpm
+pnpm dev
+pnpm dlx shadcn-ui@latest add button\
+
+ll
+pnpm dev
+nv 
+..
+rm -rf next
+ll
+cd
+bu
+nv
+cd x/git
+ll
+rm -rf lichess-tauri
+cd Stockfish/src
+..
+git fetch
+git pull
+cd src
+make clean
+make -j profile-build ARCH=apple-silicon COMP=clang 
+..
+..
+cd cutechess
+./cutechess
+./build/cutechess
+bu
+cd x/git/cutechess
+ll
+./build/cutechess
+./build/cutechess
+./build/cutechess
+..
+cd x/git/Stockfish
+cd Stockfish/
+git fetch
+git pull
+cd src
+make clean 
+make -j profile-build ARCH=apple-silicon COMP=clang 
+..
+..
+cd cutechess
+ll
+./build/cutechess
+clang --version
+bu
+nv
+nv x/p/list.md
+bu
+bu
+nv
+cd x/git
+cd x/git
+ll
+cd keiochess.club/
+ll
+cd skeleton
+ll
+pnpm run dev
+pnpm i
+pnpm run dev
+ll
+..
+ll
+..
+git clone https://github.com/mhyfritz/astro-landing-page
+cd astro-landing-page
+ll
+pnpm install
+nv package.json
+nv package.json
+git fetch
+git pull
+..
+rm -rf astro-landing-page
+git clone https://github.com/mhyfritz/astro-landing-page
+pnpm i
+cd astro-landing-page
+pnpm i
+pnpm run dev
+nv src/content
+cd src/content
+ll
+..
+ll
+cd pages
+ll
+..
+nv components/showcase.astro
+rm -rf components/showcase.astro components/showcase-card.astro
+ll
+cd components/
+ll
+nv content-section.astro
+../..
+pnpm run dev
+nv src/pages/index.astro
+pnpm run dev
+nv src/pages/index.astro
+nv src/components/footer.astro
+nv src/components/header.astro
+..
+git clone https://github.com/onwidget/tailnext
+cd tailnext
+ll
+pnpm i
+ll
+pnpm run dev
+..
+rm -rf tailnext
+git clone https://github.com/onwidget/astrowind
+cd astrowind
+ll
+pnpm i 
+pnpm run dev
+nv package.json
+nv package.json
+nv package.json
+pnpm i
+pnpm run dev
+pnpm up --latest	
+pnpm i
+pnpm run dev
+nv package.json
+..
+rm -rf astrowind
+ll
+git clone https://github.com/onwidget/astrowind
+nv package.json
+cd astrowind
+nv package.json
+pnpm i
+pnpm run dev
+pnpm up
+pnpm run dev
+ll
+pnpm dlx shadcn-ui@latest init
+pnpm dlx shadcn-ui@latest init
+ll
+nv src/pages/index.astro
+nv astro.config.mjs
+pnpm i
+pnpm run dev
+nv src/pages/index.astro
+pnpm run dev
+nv src/pages/index.astro
+pnpm run dev
+..
+ll
+nv
+nv
+cd src/assets/styles
+ll
+nv
+..
+ll
+..
+ll
+..
+ll
+cd src
+ll
+cd assets/styles
+ll
+nv globals.css
+pwd
+..
+..
+nv pages/index.astro
+..
+ll
+nv
+nv src/assets/styles/globals.css
+nv src/assets/styles/tailwind.css
+rm -rf src/assets/styles/globals.css
+pnpm run dev
+nv
+nv src/assets
+ll
+nv astro.config.mjs
+ll
+nv src/pages/index.astro
+pnpm i
+pnpm run dev
+nv components.json 
+pnpm run dev
+ll
+nv components.json 
+pnpm run dev
+ll
+nv netlify.toml
+nv components.json
+nv tailwind.config.cjs
+pnpm i
+pnpm run dev
+..
+rm -rf astrowind
+git clone https://github.com/onwidget/astrowind
+cd astrowind
+nv package.json
+pnpm up
+pnpm up
+pnpm run dev
+nv tsconfig.json
+pnpm dlx shadcn-ui@latest init\
+
+pnpm dlx shadcn-ui@latest init\
+
+pnpm i
+pnpm run dev
+nv components.json
+pnpm run dev
+ll
+cd ~
+ll
+cd x/git/astrowind
+ll
+nv tsconfig.json
+nv tailwind.config.cjs
+cd src/
+ll
+nv config.yaml
+..
+ll
+rm -rf netlify.toml
+rm -rf vercel.json
+rm -rf .prettierignore .prettierrc.js .stackblitzrc .eslintrc.js .eslintignore
+nv astro.config.mjs
+ll
+nv sandbox.config.json
+rm -rf sandbox.config.json
+nv components.json
+nv package.json
+pnpm i
+nv pnpm-lock.yaml
+pnpm run dev
+ll
+mv tailwind.config.cjs tailwind.config.js
+nv components.json
+pnpm run dev
+ll
+cd src/lib
+cd src/
+ll
+utils
+ll
+ll
+../..
+nv tailwind.config.cjs
+nv src/assets/styles/tailwind.css
+nv src/utils.ts
+cd src/
+ll
+rm -rf utils.ts
+..
+nv
+nv tailwind.config.js
+pnpm i
+pnpm run dev
+nv tailwind.config.js
+ll
+nv .editorconfig
+pnpm run dev
+ll
+\
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
+pnpm i
+pnpm up
+pnpm run dev
+pnpm run dev
+pnpm run dev
+pnpm run dev
+pnpm run dev
+bu
+..
+bu
+sudo reboot
+networkQuality
+bu
+cd x/git/Stockfish
+git fetch
+git pull
+cd src
+make clean
+make -j profile-build ARCH=apple-silicon COMP=clang 
+../..
+./cutechess/build/cutechess
+./cutechess/build/cutechess
+./cutechess/build/cutechess
+./cutechess/build/cutechess
+bu
+rm -rf /Applications/WezTerm.app
+brew install --cask wezterm-nightly
+bu
+yabai --restart-service
+..
+cd 3
+ll
+for i in *.MTS; do ffmpeg -i "$i" -c:a copy -c:v libx265 -tag:v hvc1 "${i%.*}.mp4"; done
+..
+cd 2
+for i in *.MTS; do ffmpeg -i "$i" -c:a copy -c:v libx265 -tag:v hvc1 "${i%.*}.mp4"; done
+mkdir final
+cd final
+..
+mv *.mp4 final
+ll
+..
+cd 3
+mkdir final
+cd final
+ll
+..
+mv *.mp4 final
+cd x/keio/football
+cd 0827/1
+ll
+ffmpeg +discardcorrupt -i *.MTS -c:a copy -bsf:a aac_adtstoasc -c:v libx265 -tag:v hvc1   *.mp4
+ffmpeg +discardcorrupt -i *.MTS -c:a copy -bsf:a aac_adtstoasc -c:v libx265 -tag:v hvc1 -o  *.mp4
+for i in *.MTS do ffmpeg +discardcorrupt -i "$i" -c:a copy -bsf:a aac_adtstoasc -c:v libx265 -tag:v hvc1 "${i%.*}.mp4"; done
+for i in *.MTS do ffmpeg +discardcorrupt -i "$i" -c:a copy -bsf:a aac_adtstoasc -c:v libx265 -tag:v hvc1 "${i%.*}.mp4";
+for i in *.MTS do ffmpeg +discardcorrupt -i "$i" -c:a copy -bsf:a aac_adtstoasc -c:v libx265 -tag:v hvc1 "${i%.*}.mp4"\
+
+ll
+for i in *.MTS; do ffmpeg +discardcorrupt -i "$i" -c:a copy -bsf:a aac_adtstoasc -c:v libx265 -tag:v hvc1 "${i%.*}.mp4"; \
+\
+
+for i in *.MTS; do ffmpeg +discardcorrupt -i "$i" -c:a copy -bsf:a aac_adtstoasc -c:v libx265 -tag:v hvc1 "${i%.*}.mp4"; done\
+\
+
+ll
+for i in *.MTS; do ffmpeg -i "$i" -c:a copy -bsf:a aac_adtstoasc -c:v libx265 -tag:v hvc1 "${i%.*}.mp4"; done\
+\
+
+for i in *.MTS; do ffmpeg -i "$i" -c:a copy -c:v libx265 -tag:v hvc1 "${i%.*}.mp4"; done\
+\
+
+ll
+for i in *.MTS; do ffmpeg -i "$i" -c:a copy -c:v libx265 -tag:v hvc1 "${i%.*}.mp4"; done\
+\
+
+ll
+rm -rf *.mp4
+for i in *.MTS; do ffmpeg -i "$i" -c:a copy -c:v libx265 -tag:v hvc1 "${i%.*}.mp4"; done\
+\
+
+ll
+mkdir final
+mv *.mp4 final
+ll
+bu
+nv
+yabai --restart-service
+yabai --restart-service
+bu
+nv
+bu
+bu
+nv
+< x/p/list.md
+bu
+nv
+bu
+bu
+bu
+cd x/git/Stockfish
+git fetch
+git pull
+..
+./cutechess/build/cutechess
+bu
+cd x/git
+./cutechess/build/cutechess
+./cutechess/build/cutechess
+./cutechess/build/cutechess
+cd Stockfish
+git fetch
+..
+./cutechess/build/cutechess
+cd Stockfish
+ll
+git fetch
+git pull
+cd src
+make clean
+softwareupdate --list\
+
+make -j profile-build ARCH=apple-silicon COMP=clang 
+ll
+..
+..
+./cutechess/build/cutechess
+./cutechess/build/cutechess
+bu
+nv
+nv
+cd x/git/Stockfish
+ll
+cd src
+ll
+make net
+cd syzygy
+ll
+..
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+nv x/p/list.md
+nv x/p/list.md
+cd x/git/Stockfish
+git fetch
+cd x/git/
+l
+ll
+cd external-engine
+git fetch
+ll
+./
+LICHESS_API_TOKEN=lip_Wulon0XAyfys5RTyifCy python3 ~/x/git/external-engine/example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+..
+cd Stockfish
+git fetch
+..
+LICHESS_API_TOKEN=lip_Wulon0XAyfys5RTyifCy python3 ~/x/git/external-engine/example-provider.py --engine ~/x/git/Stockfish/src/stockfish
+./x/git/cutechess/build/cutechess
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+./x/git/cutechess/build/cutechess
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+nv package.json
+nv tmp.json
+bu
+nv
+nv
+cd x/git/
+ll
+cd keiochess.club
+ll
+..
+cd astrowind
+pnpm up
+ll
+nv package.json
+pnpm up
+tldr --update
+tldr pnpm
+tldr pnpm up
+pnpm --help
+pnpm up --latest
+nv package.json
+pnpm run dev
+pnpm run astro telemetry disable
+nv package.json
+nv package.json
+nv package.json
+pnpm up
+pnpm run dev
+nv package.json
+nv package.json
+git fetch
+git git diff
+git diff
+ll
+nv package.json
+pnpm up
+pnpm run dev
+pnpm dev
+nv package.json
+pnpm dev
+pnpm up
+pnpm i
+pnpm dev
+cd
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+sf
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd .config/zsh/
+nv .zshrc
+git add -A && git commit -m "modified zshrc" && git push
+source .zshrc
+nv .zshrc
+source .zshrc
+git add -A && git commit -m "modified zshrc" && git push
+\:q
+cd
+sf
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+bu
+brew install lpeg
+brew reinstall lpeg
+bu
+nv
+nv
+nv
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git
+ll
+cd Stockfish
+git pull
+..
+cd astrowind
+ll
+..
+git clone https://github.com/onwidget/astrowind astrwnd
+cd astrwnd
+ll
+pnpm i
+pnpm up
+pnpm i
+pnpm run dev
+ll
+cd ll
+ll
+nv package.json
+pnpm i
+pnpm run dev
+ll
+rm -rf sandbox.config.json .eslintignore .eslintrc.js .prettierignore .prettierrc.js .stackblitzrc
+ll
+cat netlify.toml
+rm -rf netlify.toml vercel.json
+ll
+nv vscode.tailwind.json
+ll
+nv .editorconfig
+pnpm run dev
+..
+cd astrwnd
+ll
+cd src
+.. 
+..
+ll
+mkdir tmp
+cd astrwnd
+cp src ../tmp/src
+cp -r src ../tmp/src
+ll
+ll
+l,
+rm -rf src 
+ll
+ll
+pnpm run dev
+ll
+pnpm i
+cd src
+ll
+..
+nv astro.config.mjs
+nv tailwind.config.cjs
+mv tailwind.config.cjs tailwind.config.js
+ll
+git fetch
+git pull
+ll
+..
+rm -rf src
+ll
+rm -rf astrwnd/src
+mv tmp/src astrwnd/src
+ll
+cd astrwnd
+pnpm i
+pnpm run dev
+ll
+nv src
+nv src
+ll
+cd src
+ll
+nv pages/index.astro
+pnpm run dev
+pnpm run dev
+..
+cd astrowind
+ll
+cd src
+ll
+.. 
+cp -r src ../astrwnd/src
+nv tailwind.config.js
+ll
+..
+cd tmp
+ll
+cd src
+ll
+..
+diff -r src ../astrwnd/src
+..
+cd astrowind
+ll
+cd src
+ll
+nv pages/index.astro
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git
+ll
+git clone https://github.com/m6v3l9/astro-theme-stone
+cd astro-theme-stone
+ll
+nv pa
+nv package.json
+..
+ll
+bu
+cd x/git/Stockfish
+git fetch
+..
+cd
+sf
+sudo btm
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp]
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+yabai --restart-service
+yabai --restart-service
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git/Stockfish
+ll
+git fetch
+git pull
+cd src
+ll
+make clean
+make -j profile-build ARCH=apple-silicon COMP=clang 
+cd
+cd x/git/
+ll
+cd cutechess
+git fetch
+git pull
+cd
+cutechess
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+cd x/git/nibbler
+ll
+git fetch
+git pull
+./files/scripts/install.sh
+nibbler
+bu
+cd x/git/Stockfish
+git fetch
+cd
+nv
+nv
+bu
+nv
+cd x/git/Stockfish
+git fetch
+cd x/git/Stockfish
+git fetch
+cd 
+cd 
+cd x/git/Stockfish
+cd src
+ll
+make clean
+make -j profile-build ARCH=apple-silicon COMP=clang 
+cd
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+cd x/git
+cd nibbler
+git fetch
+git pull
+..
+rm -rf nibbler
+git clone https://github.com/rooklift/nibbler.git && cd nibbler && wget https://github.com/Jac-Zac/Nibbler_MacOS/raw/main/nibbler.icns && curl https://raw.githubusercontent.com/Jac-Zac/Nibbler_MacOS/main/build_mac.sh | sh
+ll
+nibbler
+ll
+cd Nibbler
+ll
+cd out
+ll
+cd nibbler-darwin-arm64
+ll
+..
+..
+..
+npm install -g electron
+ll
+cd Nibbler
+ll
+pnpm install -g electro
+pnpm install -g electron
+ll
+cd src
+pnpm  install -g electron
+pnpm setup
+pnpm install -g electron
+source .zshrc
+source /Users/loishi/.zshrc
+pnpm install -g electron
+electron .
+electron .
+..
+..
+..
+ll
+cd cutechess
+ll
+git fetch
+cd
+./x/git/cutechess/build/cutechess
+nv .config/zsh/.zshrc
+ll
+nv .zshrc
+nv .config/zsh/.zshrc
+rm -rf .zshrc
+source .zshrc
+source .config/zsh/.zshrc
+sf
+nv .config/zsh/.zshrc
+nv
+nv
+nv .config/zsh/.zshrc
+sf
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+./x/git/cutechess/build/cutechess
+cd x/git
+cd Stockfish
+ll
+cd
+sf
+nv .config/zsh/.zshrc
+source .config/zsh/.zshrc
+sf
+nv .config/zsh/.zshrc
+source .config/zsh/.zshrc
+nv .config/zsh/.zshrc
+source .config/zsh/.zshrc
+nv .config/zsh/.zshrc
+source .config/zsh/.zshrc
+nv .config/zsh/.zshrc
+nv .config/zsh/.zshrc
+python3 ~/x/git/external-engine/example-provider.py --name M2 --token lip_SwDZuY2bmtNMgrfNw6oS --engine '~/x/git/Stockfish/src/stockfish --setoption threads 8\
+\
+\
+
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+htop
+top
+btm
+sudo btm
+python3 x/git/external-engine/example-provider.py
+python3 x/git/external-engine/example-provider.py -h
+python3 ~/x/git/external-engine/example-provider.py --name M2 --token lip_SwDZuY2bmtNMgrfNw6oS --engine '~/x/git/Stockfish/src/stockfish --setoption threads 8\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+python3 ~/x/git/external-engine/example-provider.py --name M2 --token lip_SwDZuY2bmtNMgrfNw6oS --engine ~/x/git/Stockfish/src/stockfish --setoption threads 8\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+./x/git/Stockfish/src/stockfish
+./x/git/Stockfish/src/stockfish --help
+python3 ~/x/git/external-engine/example-provider.py --help\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+python3 ~/x/git/external-engine/example-provider.py --name M2 --token lip_SwDZuY2bmtNMgrfNw6oS --engine ~/x/git/Stockfish/src/stockfish --max-threads 7 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+sudo btm
+./x/git/cutechess/build/cutechess
+python3 ~/x/git/external-engine/example-provider.py --name M2 --token lip_SwDZuY2bmtNMgrfNw6oS --engine ~/x/git/Stockfish/src/stockfish --max-threads 8
+python3 ~/x/git/external-engine/example-provider.py --name M2 --token lip_SwDZuY2bmtNMgrfNw6oS --engine '~/x/git/Stockfish/src/stockfish --setoption name threads value 8'
+./x/git/cutechess/build/cutechess
+cd x/keio/random
+ll
+nv factorialof39.py
+python3 factorialof39.py
+nv factorialof39.py
+python3 factorialof39.py
+cat factorialof39.py
+bu
+rm -rf /Applications/WezTerm.app
+brew install --cask wezterm-nightly
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+bu
+nv
+nv
+bu
+bu
+bu
+< x/p/list.md
+cd
+cd x/git/Stockfish
+git fetch
+c
+cd
+./x/git/cutechess/build/cutechess
+bu
+bu
+rm -rf /Applications/WezTerm.app
+brew install --cask wezterm-nightly
+bu
+nv
+nv
+cd x/git/Stockfish
+ll
+git fetch
+git pull
+cd src
+make clean
+make -j profile-build ARCH=apple-silicon COMP=clang 
+cd
+./x/git/cutechess/build/cutechess
+cd x/git/cutechess
+git fetch
+..
+cd
+./x/git/cutechess/build/cutechess
+cd x/git/Stockfish
+git fetch
+..
+rm -rf Stockfish
+git clone https://github.com/official-stockfish/Stockfish
+cd Stockfish
+cd src
+make -j profile-build ARCH=apple-silicon COMP=clang 
+make -j profile-build ARCH=apple-silicon COMP=clang 
+cd
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+python3 
+nv 39.py
+python3 39.py
+python3 39.py
+nv 39.py
+python3 39.py
+< 39.py
+./x/git/cutechess/build/cutechess
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+yabai --restart-service
+clear
+cd x/keio/random
+ll
+python3 factorialof39.py
+nv factorialof39.py
+nv
+nv tmp.md
+nv tmp.md
+bu
+bu
+nv
+nv
+cd x/git/Stockfish
+git fetch
+cd
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+rm -rf /Applications/WezTerm.app
+brew install --cask wezterm-nightly
+bu
+nv
+nv
+nv
+< x/p/list.md
+networkQuality
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+cd x/keio/class/polphil
+ll
+nv 3.md
+ll
+cd .git
+ll
+..
+bu
+cd x/keio/class
+ll
+mkdir algsci
+cd algsci
+ll
+mkdir code
+cd code
+ll
+nv hash.cc
+..
+..
+..
+git add -A && git commit -m "modified keio dir" && git push
+git add -A
+git commit -m "new semester"
+git push
+git commit --amend
+git reset --hard HEAD
+git reset --hard HEAD~1
+ll
+cd football
+ll
+..
+cd random
+ll
+cd data
+ll
+..
+..
+ll
+cd football
+ll
+..
+ll
+cd cd football
+cd football
+ll
+..
+git add A
+git add -A
+git commit -m "new semester"
+git push
+git add *
+ll
+cd class
+ll
+..
+git reset --hard ORIG_HEAD\
+
+ll
+cd football
+ll
+rm -rf 0827
+ll
+..
+ll
+< .DS_Store
+ll
+ll
+ll
+cd class
+ll
+cd algsci
+ll
+..
+cd
+cd x/keio
+git add -A
+git commit -m "new semester"
+git push
+brew install git-filter-repo
+git filter-repo
+git filter-repo --analyze
+ll
+< .git/filter-repo/analysis
+< .git/filter-repo/analysis/directories-deleted-sizes.txt
+git filter-repo --path football/0827 --invert-paths
+git filter-repo --path football/0827 --invert-paths --force
+git add -A
+cd x/keio
+ll
+cd class/algsci
+ll
+..
+..
+git add -A
+git commit -m "new semester"
+git push
+cd class
+l
+ll
+mkdir macroecon
+..
+git add -A
+ll
+nv research
+cd schedule
+ll
+cd research
+ll
+..
+ll
+cd class/macroecon
+nv 1.md
+..
+..
+git add -A
+git commit -m "new semester"
+git push
+yabai --restart-service
+yabai --restart-service
+cd x/keio
+nv class/macroecon/1.md
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/
+ll
+cd git
+ll
+git clone https://github.com/shadcn-ui/taxonomy
+cd taxonomy
+ll
+nv package.json
+pnpm install
+ll
+cp .env.example
+cp .env.example .env.local
+nv .env.local
+pnpm dev
+nv .env.local
+nv
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/keio/class
+ll
+..
+cd class/
+ll
+mkdir infotheory
+cd infotheory
+ll
+ll
+..
+mkdir 1f
+mkdir 1s
+mv algsci 1f
+ll
+mv infotheory 1f
+ll 1f
+mv macroecon 1f
+ll
+l
+ll
+cd 1f
+mkdir internet
+nv infotheory/1.md
+../..
+git add -A
+git commit -m "exciting courses"
+git push
+git remote add origin https://github.com/loishi/keio
+git push
+git push --set-upstream origin main
+git fetch
+git add -A
+git commit -m "exciting courses"
+git push
+git push --set-upstream origin main
+git push --set-upstream main main
+git push --set-upstream origin main
+git pull
+git push
+tldr git push
+git push --help
+    git branch --set-upstream-to=origin/main main
+git add -A
+git commit -m "exciting courses"
+git pull
+tldr git merge
+git merge main
+git merge origin/main
+nv research/kawashima.md
+git add -A
+git commit -m "exciting courses"
+git merge origin/main
+git push
+ll
+git fetch
+bu
+nv
+nv
+cd
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+nv x/git/taxonomy
+cd x/git/taxonomy
+ll
+nv pages/api/auth/\[...nextauth\].ts
+nv types/next-auth.d.ts
+nv
+nv app/api/auth/\[...nextauth\]/_route.ts
+nv .env.local
+pnpm dev
+nv env.mjs
+nv env.mjs
+pnpm dev
+nv next.config.mjs
+nv .env.local
+nv env.mjs
+pnpm dev
+openssl rand -base64 32
+pnpm dev
+nv env.mjs
+nv .env.local
+pnpm dev
+nv
+ll
+nv package.json
+pnpm i
+pnpm up
+pnpm dev
+ll
+ll
+nv types/index.d.ts
+nv pages/
+nv components/
+bu
+nv
+nv
+cd x/keio/class
+cd 1f
+mkdir linalg
+cd linalg
+ll
+yabai --restart-service
+yabai --restart-service
+../
+../..
+git add -A
+git commit -m "seems pretty chill so far"
+git push
+clear
+cd
+cd x/git
+git clone https://github.com/mickasmt/astro-nomy
+cd astro-nomy
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git/astro-nomy
+ll
+nv package.json
+pnpm i
+pnpm run dev
+cd x/git/astro-nomy
+ll
+cd src
+ll
+nv pages/index.astro
+nv pages/index.astro
+nv package.json
+nv ../package.json
+nv pages/index.astro
+nv pages/index.astro
+nv pages/index.astro
+..
+ll
+pnpm run dev
+..
+..
+cd keio/class/1f/
+mkdir kpd
+cd kpd
+bu
+cd x/keio
+git add -A
+git commit -m "seems pretty chill so far"
+git push
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+yabai --restart-service
+yabai --restart-service
+bu
+bu
+yabai --restart-service
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+brew install --cask adobe-acrobat-reader
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+bu
+pnpm run dev
+pnpm run astro add cloudflare
+cd x/git/astro-nomy
+pnpm up
+pnpm run dev
+..
+cp -r astro-nomy keiochess.club/astro-nomy
+ll
+cd keiochess.club
+ll
+cd astro-nomy
+ll
+..
+git fetch
+git add -A
+cd astro-nomy
+ll
+nv .git
+rm -rf .git 
+ll
+..
+git add -A
+git commit -m "started using astro-nomy"
+git push
+sudo btm
+git add -A
+git commit -m "astro-nomy time"
+cd astro-nomy
+..
+git add -A
+git commit -m "astro-nomy time"
+cd astro-nomy
+git add -
+nv LICENSE
+nv LICENCE.md
+nv astro.config.mjs
+nv pages/index.astro
+nv src/pages/index.astro
+git add -A
+..
+git add -A
+git commit -m "astro-nomy time"
+git push
+git rm --cached astro-nomy
+git add -A
+git commit -m "astro-nomy time"
+git pushj
+git push
+ll
+cd astro-nomy
+ll
+cd src
+ll
+..
+mkdir dist
+ll
+git add -A
+git push
+touch dist/index.html
+ll
+git add -A
+nv dist/index.html
+ll
+git add -A
+git commit -m "astro-nomy time"
+..
+nv astro-nomy/dist/index.html 
+git add -A
+..
+cd keiochess.club
+nv .git
+nv astro-nomy/README.md
+git add -A
+git commit -m "astro-nomy time"
+cd astro-nomy
+ll
+nv .gitignore
+git add -A
+git commit -m "astro-nomy time"
+git push
+nv .gitignore
+git add -A
+git commit -m "astro-nomy time"
+git push
+nv .gitignore
+nv dist/index.html
+ll
+cd dist
+ll
+rm -rf index.html
+..
+..
+git add -A
+git push
+git commit -m "gitignore meh"
+git push
+cd astro-nomy
+ll
+nv astro.config.mjs
+nv astro.config.mjs
+nv astro.config.mjs
+..
+git add -A
+git commit -m "gitignore meh"
+git push
+nv package.json
+cd astro-nomy
+pnpm i
+pnpm i @astrojs/cloudflare
+nv package.json
+..
+git add -A && git commit -m "cloudflare plz" && git push
+nv astro-nomy/astro.config.mjs
+git add -A && git commit -m "cloudflare plz" && git push
+git add -A && git commit -m "cloudflare plz" && git push
+cd astro-nomy
+pnpm i @astrojs/node
+git add -A && git commit -m "cloudflare plz" && git push
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd
+cd Downloads
+< LFWA64TTJPM647N\ \(2\).csv
+nv LFWA64TTJPM647N\ \(2\).csv
+cat LFWA64TTJPM647N\ \(2\).csv
+nv LFWA64TTUSQ647N.csv
+nv
+nv LFWA64TTUSQ647N.csv
+nv LFWA64TTUSQ647N.csv
+cd x/git/Stockfish
+git fetch
+git pull
+cd src
+ll
+make clean
+make -j profile-build ARCH=apple-silicon COMP=clang 
+..
+..
+..
+..
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git/Stockfish
+ll
+git fetch
+git pull
+..
+cd
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+nv
+bu
+bu
+nv
+bu
+nv
+yabai --restart-service
+yabai --restart-service
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+nv
+bu
+nv
+nv
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git/
+git clone https://github.com/loishi/astro-nomy
+git clone https://github.com/loishi/modastronomy
+cd modastronomy
+pnpm i 
+pnpm run dev
+..
+cd keiochess.club
+ll
+ll
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+nv x/p/list.md
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+sudo btm
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+pnpm run dev
+pnpm i
+pnpm dev
+pnpm run dev
+ll
+rm -rf node_modules
+rm -rf pnpm-lock.yaml
+pnpm i
+pnpm run dev
+pnpm run dev
+pnpm run dev
+pnpm run dev
+sudo btm
+sudo btm
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+traceroute media.mit.edu
+cd x/keio/class
+ll
+cd 1f
+ll
+../..
+ll
+git add -A && git commit -m "taking courses" && git push
+cd
+cd .config/
+ll
+git add -A && git commit -m "pushing stuff" && git push
+cd
+yabai --restart-service
+pnpm run dev
+pnpm dlx shadcn-ui@latest add alert
+pnpm run dev
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+../../
+git add -A && git commit -m "Joined delight?" && git push
+cd
+cd .config/
+git add -A && git commit -m "config time" && git push
+cd
+ll
+mkdir papers
+cd papers
+i
+yabai --restart-service
+bu
+cd x/keio?
+cd x/keio
+ll
+ll
+cd research
+ll
+mkdir delight
+ll
+cd delight
+ll
+nv 1019.md
+bu
+cd
+bu
+nv tmp.py
+nv tmp.py
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+yabai --restart-service
+nv
+yabai --restart-service
+cd x/keio
+ll
+git add -A && git commit -m "taking classes seiously" && git push
+cd
+nv
+cd x/
+cd git/
+ll
+cd keiochess.club
+ll
+rm -rf skeleton
+git rm skeleton
+git rm -r skeleton
+git commit -m "deleted skeleton"
+git push
+ll
+cp -r astro-nomy ../keiochess.club
+mv astro-nomy ../keiochess.club
+mv astro-nomy ../
+mv -r astro-nomy ../keiochess.club 
+mv -f astro-nomy ../keiochess.club 
+lllll
+ll
+cd astro-nomy
+ll
+mv * ../
+ll
+mv .* ../
+..
+ll
+rm -rf astro-nomy
+git add -A
+git commit -m "deleted astro-nomy"
+git push
+ll
+nv README.md
+git add -A && git commit -m "modified README" && git push
+pnpm i cookie
+pnpm run astro add auth-astro
+pnpm install auth-astro@latest @auth/core@latest
+pnpm uninstall auth-astro @auth/core
+cd
+bu
+cd x/git/
+ll
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ll
+cd keiochess.club
+ll
+pnpm install wrangler
+pnpm dlx wrangler login
+networkQuality
+networkQuality
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git/Stockfish
+git fetch
+git pull
+cd src
+make clean
+make -j profile-build ARCH=apple-silicon COMP=clang 
+ll
+cd x/keio
+ll
+cd research/delight
+ll
+nv 1019.md
+yabai --restart-service
+bu
+yabai --restart-service
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+yabai --restart-service
+< x/p/list.md
+cd x/keio/research
+ll
+cd delight
+ll
+mkdir intro
+mv intro.md intro/
+ll
+cd intro
+ll
+nv slides.md
+nv slides.md
+pnpm create slidev
+ll
+cd intro
+ll
+nv slides.md
+pnpm create slidev
+pnpm run dev
+..
+pnpm run dev
+rm -rf *.md
+ll
+mv intro ../
+mv intro -r ../
+ll
+mv -r intro  ../
+mv -f intro  ../
+mv -f intro  ../../
+ll
+..
+ll
+..
+l
+ll
+mv intro delight/intro
+ll
+cd delight
+ll
+cd intro
+ll
+cd intro
+ll
+mv * .* ../
+ll
+cd
+cd x/keio/research/delight
+ll
+cd intro
+ll
+ls intro
+rm intro
+rm -r intro
+ll
+ll
+nv slides.md
+pnpm run dev
+ll
+pnpm run dev
+nv x/keio/research
+cd x/keio/research
+ll
+nv tmp.md
+cd
+yabai --restart-service
+yabai --stop-service
+yabai --restart-service
+yabai --start-service
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+sudo reboot
+yabai --start-service
+yabai --restart-service
+bu
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+caffeinate
+networkQuality
+networkQuality
+bu
+nv
+nv
+bu
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+brew install --cask openvpn-connect
+bu
+brew install --cask cloudflare-warp
+brew install --cask cloudflare-warp
+bu
+bu
+nv
+nv
+nv
+bu
+ssh
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git/Stockfish
+git fetch
+git pull
+cd src
+make clean
+make -j profile-build ARCH=apple-silicon COMP=clang 
+../..
+cd cutechess
+cd
+./x/git/cutechess/build/cutechess
+cd x/git/cutechess
+git fetch
+git pull
+cd
+./x/git/cutechess/build/cutechess
+./x/git/cutechess/build/cutechess
+caffeinate
+bu
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+mpv -help
+mpv --help
+mpv --no-video https://www.youtube.com/watch?v=jfKfPfyJRdk
+mpv --no-video 'https://www.youtube.com/watch?v=jfKfPfyJRdk'
+bu
+bu
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+nv
+nv tmp.md
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+nv x/p/list.md
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/keio/research/delight/
+ll
+mkdir credopocket
+cd credopocket
+ll
+pnpm create helloworld
+pnpm init
+ll
+rm -rf package.json
+mkdir helloworld
+cd helloworld
+pnpm init
+pnpm i express
+nv app.js
+node app.js
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+./x/git/cutechess/build/cutechess
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+yabai --restart-service
+yabai --restart-service
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+< x/p/list.md
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git/Stockfish
+git fetch && git pull
+cd src
+make clean
+make -j profile-build ARCH=apple-silicon COMP=clang 
+caffeinate
+brew install --cask kindle
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+caffeinate
+bu
+brew cleanup
+brew doctor    
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ls
+bu
+nv
+nv
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+< x/p/list.md
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+bu
+mv
+nv
+bu
+bu
+nv
+nv
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+yabai --restart-service
+cd x/git/Stockfish
+git fetch && git pull
+cd src 
+make clean
+make -j profile-build ARCH=apple-silicon COMP=clang 
+cutechess
+./x/git/cutechess/build/cutechess
+cd
+./x/git/cutechess/build/cutechess
+bu
+sudo reboot
+./x/git/cutechess/build/cutechess
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+veramo did resole did:web:loishi.github.io:didweb_test
+veramo did add-service
+curl -o did.json -H "Host: <your github user>.github.io" http://localhost:3332/alice/did.json\
+
+< did.json
+curl -o did.json -H "Host: <your github user>.github.io" http://localhost:3332/didweb_test/did.json\
+
+< did.json
+curl -o did.json -H "Host: loishi.github.io" http://localhost:3332/didweb_test/did.json\
+
+< did.json
+nv did.json
+curl -o did.json -H "Host: loishi.github.io" http://localhost:3332/didweb_test/did.json\
+
+< did.json
+cd x/git
+git clone https://github.com/loishi/didweb_test
+cd didweb_test
+ll
+nv did.json
+nv did.json
+pnpm i @veramo/cli -g
+veramo config create
+ll
+veramo did create
+ll
+veramo config create
+nv database.sqlite
+veramo did resolve did:web:loishi.github.io:alice
+ll
+nv did.json
+veramo did create
+ll
+rm -rf database.sqlite
+ll
+nv agent.yml
+veramo did create
+veramo server
+veramo server
+ll
+nv did.json
+git add -A && git commit -m "modified did.json" && git push
+../
+cd loishi.dev
+ll
+pnpm i -g wrangler
+ll
+git add -A && git commit -m "rebuilding" && git push
+ll
+nv package.json
+pnpm update
+pnpm up
+nv package.json
+pnpm up --latest
+git add -A && git commit -m "rebuilding" && git push
+bu
+ll
+nv tsconfig.json
+nv tsconfig.json
+ll
+cd src
+ll
+cd pages
+ll
+nv index.astro
+cd
+cd x/git/
+ll
+cd loishi.github.io
+ll
+nv did.json
+git add -A && git commit -m "rebuilding" && git push
+rm -rf did.json
+rm -rf did.json
+git add -A && git commit -m "rebuilding" && git push
+cd ..
+cd
+cd x/git/
+ll
+cd didweb_test
+veramo did resolve did:web:loishi.github.io:didweb_test
+veramo did create 
+veramo server
+veramo server
+curl -o did.json -H "Host: loishi.github.io" http://localhost:3332/alice/did.json
+ll
+nv did.json
+nv did.json
+curl -o did.json -H "Host: loishi.github.io" http://localhost:3332/alice/did.json
+curl -o did.json -H "Host: loishi.github.io" http://localhost:3332/alice/did.json
+ll
+nv did.json
+nv did.json
+git add did.json
+git commit -m "Add did.json"
+git push
+ll
+veramo did resolve did:web:loishi.github.io:alice
+..
+git clone https://github.com/loishi/loishi.github.io
+cd loishi.github.io
+echo "Hello World" > index.html\
+\
+
+git add -A
+git commit -m "Initial commit"
+git push -u origin main
+cd ../didweb_test
+ll
+veramo did resolve did:web:loishi.github.io:alice
+veramo did resolve did:web:loishi.github.io:didweb_test
+../
+ll
+git clone https://github.com/loishi/loishi.dev
+cd loishi.dev
+ll
+ll
+rm -rf themes
+rm -rf docs
+rm -rf content config.toml archetypes .hugo_build.lock
+< .gitmodules
+rm -rf .gitmodules
+< .github
+nv .github
+rm -rf .github
+ll
+< CNAME
+nv loishi.dev
+ll
+nv README.md
+ll
+git add -A
+git commit -m "Rebuilding"
+git push
+git clone https://github.com/uzzii-21/astro-portfolio
+cd astro-portfolio
+ll
+rm -rf .git .gitignore
+ll
+rm -rf .*
+ll
+mv -r * ../
+mv  * ../
+ll
+..
+ll
+rm -rf astro
+rm -rf astro-portfolio
+ll
+pnpm i
+nv package.json
+pnpm i 
+pnpm update
+ll
+pnpm run dev
+ll
+nv src/data/info.ts
+pnpm run dev
+nv src/data/info.ts
+pnpm run dev
+nv src/data/info.ts
+pnpm run dev
+nv src/data/info.ts
+pnpm run dev
+ll
+d src
+ll
+cd src
+ll
+nv layouts/Layout.astro
+nv components/general/Footer.astro
+pnpm run dev
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd
+cd x/keio/research/delight/
+lll
+ll
+mkdir random
+cd random
+ll
+curl -o did.json -H "Host: loishi.github.io" https://localhost:3332/didweb_test/did.json
+ll
+curl -o did.json -H "Host: loishi.github.io" http://localhost:3332/didweb_test/did.json
+ll
+< did.json
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git/Stockfish
+git fetch
+git pull
+cd
+./x/git/cutechess/build/cutechess
+cd x/git/cutechess
+git fetch
+git pull
+ll
+cd
+./x/git/cutechess/build/cutechess
+cd x/p/novel
+ll
+nv nanami.md
+..
+< list.md
+yabai --restart-service
+bu
+./x/git/cutechess/build/cutechess
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git/Stockfish
+git fetch 
+git pull
+cd src
+make clean
+make -j profile-build ARCH=apple-silicon COMP=clang 
+cd ../..
+ll
+cd external-engine
+ll
+git fetch
+git pull
+cd
+nv .config/zsh/.zshrc
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+sudo btm
+sf
+nv .config/zsh/.zshrc
+source .config/zsh/.zshrc
+sf
+./x/git/cutechess/build/cutechess
+bu
+bu
+bu
+nv
+bu
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git/Stockfish
+cd ..
+cd ..
+cd keio/
+ll
+git fetch
+cd research/delight
+ll
+cd credopocket
+ll
+nv DIDAbstraction.md
+nv DIDAbstraction.md
+nv DIDAbstraction.md
+bu
+../..
+../
+git add -A && git commit -m "daily commit" && git push
+cd
+cd .config
+git add -A && git commit -m "daily commit" && git push
+../
+cd x/keio/research/delight/credopocket
+ll
+nv DIDAbstraction.md
+cd
+bu
+nv 
+nv
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/keio/research/delight/
+ll
+nv shinjin.md
+yabai --restart-service
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+sudo reboot
+cd x/keio/research/delight/
+ll
+nv credopocket/DIDAbstraction.md
+cd x/keio/research/delight/
+ll
+cd credopocket
+ll
+nv DIDAbstraction.md
+networkQuality
+networkQuality
+networkQuality
+cd
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd credopocket
+cd x/keio/research/delight/
+cd credopocket
+nv DIDAbstraction.md
+bu
+bu
+bu
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+yabai --restart-service
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+cd x/chess/Chessable
+ll
+..
+ll
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+sudo reboot
+cd x/keio/research/delight/
+ll
+cd credopocket
+ll
+git clone https://github.com/Credo-Project/docs.git
+git clone https://github.com/Credo-Project/docs
+git clone https://loishi@github.com/Credo-Project/docs.git
+mkdir docs
+cd docs
+ll
+nv README.md
+git remote add origin https://github.com/Credo-Project/docs.git\
+  git branch -M main\
+  git push -u origin main
+ll
+ll
+git init
+git add *
+ll
+git commit -m "initial commit"
+git branch -M main
+git remote add origin https://github.com/Credo-Project/docs.git\
+  git branch -M main\
+  git push -u origin main
+ll
+git clone
+git pull
+git fetch
+git config --list
+gh
+brew install gh
+gh
+gh repo clone Credo-project/docs
+gh auth login
+gh repo clone Credo-project/docs
+ll
+..
+rm -rf docs
+ll
+ll
+gh repo clone Credo-project/docs
+cd docs
+ll
+nv README.md
+git add -A && git commit -m "modified README" && git push
+ll
+mkdir abstraction
+cd abstraction
+nv didcore.md
+git add -A && git commit -m "created the abstraction of did-core" && git push
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ni
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+../..
+git add -A && git commit -m "daily commit" && git push
+git rm --cached research/delight/credopocket/docs
+git submodule add https://github.com/Credo-Project/docs research/delight/credopocket/docs
+git add -A && git commit -m "daily commit" && git push
+cd
+cd .config
+git add -A && git commit -m "daily commit" && git push
+..
+ll
+brew install pipx
+pipx install pyxel
+cd
+ll
+nv .config/zsh/.zshrc
+source .config/zsh/.zshrc
+cd x/keio/research/delight
+ll
+cd credopocket
+ll
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd ../../..
+cd random/ii2
+ll
+nv yuto.md
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+pipx installl pyxel
+pipx install pyxel
+pip install -m pyxel
+pip install  pyxel
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+yabai --restart-service
+cd
+cd x/git/Stockfish
+git fetch
+git pull
+cd src
+make -j profile-build ARCH=apple-silicon COMP=clang 
+bu
+../..
+ll
+cd external
+cd external-engine
+..
+sf
+sf
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+echo /bin/zsh
+echo /bin/zsh
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+echo /bin/zsh
+brew upgrade --cask kindle
+sudo reboot
+networkQuality
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+cd x/git/
+git clone
+git clone https://github.com/spruceid/wallet
+brew install cocoapods
+cd wallet
+brew install flutter
+brew install flutter
+bu
+echo /bin/zsh
+echo /bin/zsh
+echo /bin/zsh
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/MiniTyping.py
+pip install kfont
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/MiniTyping.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/MiniTyping.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/MiniTyping.py
+/opt/homebrew/bin/python3 /Users/loishi/x/keio/random/II2/MiniTyping.py
+echo /bin/zsh
+cd Downloads
+pyxel play MiniTyping.pyxapp
+pyxel play MiniTyping.pyxapp
+cat /var/folders/wz/_t4l7hss3j519v0lq2_0q2_c0000gn/T/.pyxel/play/21223/MiniTyping/MiniTyping.py
+cp /var/folders/wz/_t4l7hss3j519v0lq2_0q2_c0000gn/T/.pyxel/play/21223/MiniTyping/MiniTyping.py ~/x/keio/random/II2 
+ll
+cd
+cd x/keio/random/
+cd II2
+ll
+/var/folders/wz/_t4l7hss3j519v0lq2_0q2_c0000gn/T/.pyxel/play/21223/MiniTyping/
+ll
+cp kfont.py eng_jpn.txt ~/x/keio/random/II2
+echo /bin/zsh
+echo /bin/zsh
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cat x/p/list.md
+echo /bin/zsh
+echo /bin/zsh
+echo /bin/zsh
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+sudo btm
+cd x/git/Stockfish
+ll
+git fetch
+git pull
+cd
+sf
+cd x/git/external-engine
+git fetch
+git pull
+..
+cd Stockfish
+git fetch
+git pull
+cd
+sf
+nv .config/zsh/.zshrc
+sf
+sf
+bu
+yabai --restart-service
+echo /bin/zsh
+echo /bin/zsh
+echo /bin/zsh
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+sf
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+echo /bin/zsh
+bu
+nv
+nv
+yabai --restart-service
+bu
+bu
+echo /bin/zsh
+echo /bin/zsh
+cd x/keio/research/delight/credopocket
+ll
+cd docs
+ll
+git fetch
+git pull
+nv components/DIDCore.md
+nv components/DIDCore.md
+../../..
+..
+git fetch
+git add -A && git commit -m "Changed the name of Revocate command to Deactivate" && git push
+cd research/delight/credopocket/docs
+git add -A && git commit -m "Changed the name of Revocate command to Deactivate" && git push
+bu
+bu
+bu
+git fetch
+git pull
+cat components/DIDCore.md
+cd
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+yabai --restart-service
+echo /bin/zsh
+echo /bin/zsh
+vy
+buu
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+yabai --restart-service
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+  yabai --start-service
+yabai --restart-service
+nv
+nv
+yabai --restart-service
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+yabai --restart-service
+cd x/keio/class/1f/
+ll
+cd infotheory
+nv report2.md
+yabai --restart-service
+yabai --restart-service
+bu
+nv
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+gimp
+brew install --cask gimp
+yabai --restart-service
+brew install --cask appcleaner
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+bu
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+sf
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git/Stockfish
+git fetch
+git pull
+cd src
+make clean
+make -j profile-build ARCH=apple-silicon COMP=clang 
+cd
+cd x/git/external-engine
+git fetch
+..
+sf
+sf
+sudo btm
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+mpv https://iptv-org.github.io/iptv/index.m3u\
+
+mpv https://iptv-org.github.io/iptv/countries/jp.m3u\
+
+mpv https://iptv-org.github.io/iptv/countries/jp.m3u\
+
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+brew doctor
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+yabai --restart-service
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+nv
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+yabai --restart-service
+yabai --restart-service
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cd x/git/
+ll
+cd wallet
+ll
+bu
+nv
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+bu
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu 
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+nv
+bu
+echo /bin/zsh
+echo /bin/zsh
+echo /bin/zsh
+networkQuality
+networkQuality
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+/opt/homebrew/bin/python3.12 /Users/loishi/x/keio/random/II2/MiniTyping.py
+pip install pyxel
+pip install -U update
+pip install -U update pip
+/opt/homebrew/bin/python3.12 /Users/loishi/x/keio/random/II2/MiniTyping.py
+pip install pyxel
+echo /bin/zsh
+bu
+yabai --start-service
+yabai --restart-service
+yabai --restart-service
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+echo /bin/zsh
+echo /bin/zsh
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+yabai --restart-service
+yabai --restart-service
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+yabai --restart-service
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+/opt/homebrew/bin/python3.12 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+echo /bin/zsh
+echo /bin/zsh
+cd x/keio/random/II2/
+ll
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+nv alphabet_pickup_game.py
+cd x/keio/random/II2/
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+nv
+bu
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+defaults write kCFPreferencesAnyApplication TSMLanguageIndicatorEnabled 0\
+
+sudo reboot
+/opt/homebrew/bin/python3.12 /Users/loishi/x/keio/random/II2/alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+echo /bin/zsh
+echo /bin/zsh
+bu
+bu
+yabai --restart-service
+nv
+echo /bin/zsh
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 alphabet_pickup_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+echo /bin/zsh
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+cd x/keio/random/II2/
+yabai --stop-service
+python3 typing_game.py
+yabai --stop-service
+yabai --start-service
+echo /bin/zsh
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+python3 typing_game.py
+echo /bin/zsh
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+yabai --stop-service
+yabai --start-service
+cat x/p/list.md
+bu
+nv
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+echo /bin/zsh
+echo /bin/zsh
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+yabai --start-service
+bu
+yabai --restart-service
+yabai --restart-service
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+nv
+echo /bin/zsh
+bu
+echo /bin/zsh
+echo /bin/zsh
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+cat x/p/list.md
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+bu
+echo /bin/zsh
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp\ 
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+bu
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+echo /bin/zsh
+echo /bin/zsh
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+echo /bin/zsh
+echo /bin/zsh
+echo /bin/zsh
+echo /bin/zsh
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+bu
+nv
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ssh s23266yk@ccx03.sfc.keio.ac.jp
+ni
+bu
+bu
+brew upgrade --cask wezterm-nightly --no-quarantine --greedy-latest\
+
+brew uninstall --cask wezterm-nightly --no-quarantine --greedy-latest\
+
+brew uninstall --cask wezterm-nightly \
+
+brew install --cask wezterm-nightly
+rm -rf /Applications/WezTerm.app
+brew install --cask wezterm-nightly

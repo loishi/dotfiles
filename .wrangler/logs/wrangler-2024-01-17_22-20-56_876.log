@@ -1,0 +1,163 @@
+
+--- 2024-01-17T22:20:56.944Z debug
+🪵  Writing logs to "/Users/loishi/.config/.wrangler/logs/wrangler-2024-01-17_22-20-56_876.log"
+---
+
+--- 2024-01-17T22:20:56.944Z debug
+Failed to load .env file ".env": Error: ENOENT: no such file or directory, open '.env'
+    at Object.openSync (node:fs:581:18)
+    at Object.readFileSync (node:fs:460:35)
+    at tryLoadDotEnv (/Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:123834:72)
+    at loadDotEnv (/Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:123843:12)
+    at /Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:156516:20
+    at /Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:130707:16
+    at maybeAsyncResult (/Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:128928:44)
+    at /Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:130706:14
+    at /Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:128915:22
+    at Array.reduce (<anonymous>) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '.env'
+}
+---
+
+--- 2024-01-17T22:20:57.426Z log
+ ⛅️ wrangler 3.22.5
+[38;2;255;136;0m-------------------[39m
+---
+
+--- 2024-01-17T22:20:57.652Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"type":"event","name":"run dev","properties":{"local":true,"usesTypeScript":true}}.
+---
+
+--- 2024-01-17T22:20:57.652Z debug
+Failed to load .env file "/Users/loishi/x/keio/research/delight/random/my-app/.dev.vars": Error: ENOENT: no such file or directory, open '/Users/loishi/x/keio/research/delight/random/my-app/.dev.vars'
+    at Object.openSync (node:fs:581:18)
+    at Object.readFileSync (node:fs:460:35)
+    at tryLoadDotEnv (/Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:123834:72)
+    at loadDotEnv (/Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:123843:12)
+    at getVarsForDev (/Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:160778:18)
+    at getBindings (/Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:161786:10)
+    at getBindingsAndAssetPaths (/Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:161742:20)
+    at getDevReactElement (/Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:161408:40)
+    at startDev (/Users/loishi/x/keio/research/delight/random/my-app/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:161471:60)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/loishi/x/keio/research/delight/random/my-app/.dev.vars'
+}
+---
+
+--- 2024-01-17T22:20:57.706Z log
+[2m⎔ Starting local server...[22m
+---
+
+--- 2024-01-17T22:20:58.798Z debug
+[InspectorProxyWorker] handleProxyControllerIncomingMessage {"type":"reloadStart"}
+---
+
+--- 2024-01-17T22:20:58.798Z debug
+[InspectorProxyWorker] handleProxyControllerIncomingMessage {"type":"reloadComplete","proxyData":{"userWorkerUrl":{"protocol":"http:","hostname":"127.0.0.1","port":"63145"},"userWorkerInspectorUrl":{"protocol":"ws:","hostname":"127.0.0.1","port":"63139","pathname":"/core:user:my-app"},"userWorkerInnerUrlOverrides":{"protocol":"http"},"headers":{"MF-Proxy-Shared-Secret":"9530413c-7c6b-4783-b59f-21f7d713b3f6"},"liveReload":false,"proxyLogsToController":false,"internalDurableObjects":[]}}
+---
+
+--- 2024-01-17T22:20:58.800Z debug
+[InspectorProxyWorker] reconnectRuntimeWebSocket
+---
+
+--- 2024-01-17T22:20:58.801Z debug
+[InspectorProxyWorker] NEW RUNTIME WEBSOCKET http://127.0.0.1:63139/core:user:my-app
+---
+
+--- 2024-01-17T22:20:58.801Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Runtime.executionContextCreated',
+  params: {
+    context: {
+      id: 65740161,
+      origin: '',
+      name: 'Worker',
+      uniqueId: '3846111645289732746.2409119768438366016'
+    }
+  }
+}
+---
+
+--- 2024-01-17T22:20:58.802Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000001, result: {} }
+---
+
+--- 2024-01-17T22:20:58.802Z debug
+[InspectorProxyWorker] RUNTIME WEBSOCKET OPENED
+---
+
+--- 2024-01-17T22:20:58.803Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  method: 'Debugger.scriptParsed',
+  params: {
+    scriptId: '3',
+    url: 'file:///Users/loishi/x/keio/research/delight/random/my-app/.wrangler/tmp/dev-A7jMKc/index.js',
+    startLine: 0,
+    startColumn: 0,
+    endLine: 1903,
+    endColumn: 106,
+    executionContextId: 65740161,
+    hash: '8a8438a7fe1f09ae8b3fe722f35f707816ecde727c6685a0ae9f77a7ea86162a',
+    isLiveEdit: false,
+    sourceMapURL: 'index.js.map',
+    hasSourceURL: true,
+    isModule: true,
+    length: 59737,
+    scriptLanguage: 'JavaScript',
+    embedderName: 'index.js'
+  }
+}
+---
+
+--- 2024-01-17T22:20:58.803Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Runtime.enable","id":100000001}
+---
+
+--- 2024-01-17T22:20:58.803Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Debugger.enable","id":100000002}
+---
+
+--- 2024-01-17T22:20:58.804Z debug
+[InspectorProxyWorker] SEND TO RUNTIME {"method":"Network.enable","id":100000003}
+---
+
+--- 2024-01-17T22:20:58.804Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE {
+  id: 100000002,
+  result: { debuggerId: '5433811663084297581.-3238280935474728715' }
+}
+---
+
+--- 2024-01-17T22:20:58.804Z debug
+[InspectorProxyWorker] RUNTIME INCOMING MESSAGE { id: 100000003, method: 'Network.enable', result: {} }
+---
+
+--- 2024-01-17T22:21:05.847Z debug
+Not Implemented Error: ConfigController#teardown
+---
+
+--- 2024-01-17T22:21:05.847Z debug
+Not Implemented Error: BundlerController#teardown
+---
+
+--- 2024-01-17T22:21:05.847Z debug
+Not Implemented Error: LocalRuntimeController#teardown
+---
+
+--- 2024-01-17T22:21:05.847Z debug
+Not Implemented Error: RemoteRuntimeController#teardown
+---
+
+--- 2024-01-17T22:21:05.847Z debug
+ProxyController teardown
+---
+
+--- 2024-01-17T22:21:05.853Z log
+[2m⎔ Shutting down local server...[22m
+---

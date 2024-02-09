@@ -1,0 +1,91 @@
+
+--- 2024-01-17T22:59:35.813Z debug
+🪵  Writing logs to "/Users/loishi/.config/.wrangler/logs/wrangler-2024-01-17_22-59-35_744.log"
+---
+
+--- 2024-01-17T22:59:35.813Z debug
+Failed to load .env file ".env": Error: ENOENT: no such file or directory, open '.env'
+    at Object.openSync (node:fs:581:18)
+    at Object.readFileSync (node:fs:460:35)
+    at tryLoadDotEnv (/Users/loishi/Library/pnpm/store/v3/tmp/dlx-89482/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:123834:72)
+    at loadDotEnv (/Users/loishi/Library/pnpm/store/v3/tmp/dlx-89482/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:123843:12)
+    at /Users/loishi/Library/pnpm/store/v3/tmp/dlx-89482/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:156516:20
+    at /Users/loishi/Library/pnpm/store/v3/tmp/dlx-89482/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:130707:16
+    at maybeAsyncResult (/Users/loishi/Library/pnpm/store/v3/tmp/dlx-89482/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:128928:44)
+    at /Users/loishi/Library/pnpm/store/v3/tmp/dlx-89482/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:130706:14
+    at /Users/loishi/Library/pnpm/store/v3/tmp/dlx-89482/node_modules/.pnpm/wrangler@3.22.5/node_modules/wrangler/wrangler-dist/cli.js:128915:22
+    at Array.reduce (<anonymous>) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '.env'
+}
+---
+
+--- 2024-01-17T22:59:35.816Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/memberships?page=1
+---
+
+--- 2024-01-17T22:59:35.816Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-01-17T22:59:35.816Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-01-17T22:59:35.816Z debug
+-- END CF API REQUEST
+---
+
+--- 2024-01-17T22:59:36.180Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2024-01-17T22:59:36.181Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-01-17T22:59:36.181Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-01-17T22:59:36.181Z debug
+-- END CF API RESPONSE
+---
+
+--- 2024-01-17T22:59:36.181Z debug
+Saving to cache: {"account":{"id":"81815bfae1e5700bee8036d50df367a9","name":"Loishi1312@gmail.com's Account"}}
+---
+
+--- 2024-01-17T22:59:36.182Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/81815bfae1e5700bee8036d50df367a9/pages/projects?per_page=10&page=1
+---
+
+--- 2024-01-17T22:59:36.182Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-01-17T22:59:36.182Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-01-17T22:59:36.182Z debug
+-- END CF API REQUEST
+---
+
+--- 2024-01-17T22:59:37.188Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2024-01-17T22:59:37.189Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-01-17T22:59:37.189Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2024-01-17T22:59:37.189Z debug
+-- END CF API RESPONSE
+---
