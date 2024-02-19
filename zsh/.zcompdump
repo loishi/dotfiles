@@ -1,4 +1,4 @@
-#files: 966	version: 5.9
+#files: 990	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -331,6 +331,7 @@ _comps=(
 'cygstart.exe' '_cygstart'
 'dak' '_dak'
 'darcs' '_darcs'
+'darwin-rebuild' '_darwin-rebuild'
 'dash' '_sh'
 'date' '_date'
 'dbus-launch' '_dbus'
@@ -1020,6 +1021,27 @@ _comps=(
 'nginx' '_nginx'
 'ngrep' '_ngrep'
 'nice' '_nice'
+'nix' '_nix'
+'nix-build' '_nix-build'
+'nix-channel' '_nix-channel'
+'nix-collect-garbage' '_nix-collect-garbage'
+'nix-copy-closure' '_nix-copy-closure'
+'nix-env' '_nix-env'
+'nix-hash' '_nix-hash'
+'nix-install-package' '_nix-install-package'
+'nix-instantiate' '_nix-instantiate'
+'nix-prefetch-url' '_nix-prefetch-url'
+'nix-push' '_nix-push'
+'nix-shell' '_nix-shell'
+'nix-store' '_nix-store'
+'nixops' '_nixops'
+'nixos-build-vms' '_nixos-build-vms'
+'nixos-container' '_nixos-container'
+'nixos-generate-config' '_nixos-generate-config'
+'nixos-install' '_nixos-install'
+'nixos-option' '_nixos-option'
+'nixos-rebuild' '_nixos-rebuild'
+'nixos-version' '_nixos-version'
 'nkf' '_nkf'
 'nl' '_nl'
 'nm' '_nm'
@@ -2030,7 +2052,12 @@ autoload -Uz _SUSEconfig __arguments _a2ps _a2utils _aap \
             _zed _zfs _zfs_dataset _zfs_pool _zftp \
             _zip _zle _zlogin _zmodload _zmv \
             _zoneadm _zones _zparseopts _zpty _zsh \
-            _zsh-mime-handler _zsocket _zstyle _ztodo _zypper
+            _zsh-mime-handler _zsocket _zstyle _ztodo _zypper \
+            _nix _darwin-rebuild _nix _nix-build _nix-channel \
+            _nix-collect-garbage _nix-common-options _nix-copy-closure _nix-env _nix-hash \
+            _nix-install-package _nix-instantiate _nix-prefetch-url _nix-push _nix-shell \
+            _nix-store _nixops _nixos-build-vms _nixos-container _nixos-generate-config \
+            _nixos-install _nixos-option _nixos-rebuild _nixos-version
 autoload -Uz +X _call_program
 
 typeset -gUa _comp_assocs
