@@ -89,7 +89,7 @@
 				"default" : "<empty>",
 				"name" : "SyzygyPath",
 				"type" : "text",
-				"value" : "/Users/loishi/x/git/tablebases/syzygy"
+				"value" : "<empty>"
 			},
 			{
 				"alias" : "",
@@ -118,10 +118,17 @@
 			},
 			{
 				"alias" : "",
-				"default" : "nn-baff1edbea57.nnue",
+				"default" : "nn-c721dfca8cd3.nnue",
 				"name" : "EvalFile",
 				"type" : "text",
-				"value" : "nn-baff1edbea57.nnue"
+				"value" : "nn-c721dfca8cd3.nnue"
+			},
+			{
+				"alias" : "",
+				"default" : "nn-baff1ede1f90.nnue",
+				"name" : "EvalFileSmall",
+				"type" : "text",
+				"value" : "nn-baff1ede1f90.nnue"
 			}
 		],
 		"protocol" : "uci",
@@ -366,7 +373,7 @@
 				"default" : "<empty>",
 				"name" : "SyzygyPath",
 				"type" : "text",
-				"value" : "/Users/loishi/x/git/tablebases/syzygy"
+				"value" : ""
 			},
 			{
 				"alias" : "",
@@ -395,10 +402,17 @@
 			},
 			{
 				"alias" : "",
-				"default" : "nn-baff1edbea57.nnue",
+				"default" : "nn-c721dfca8cd3.nnue",
 				"name" : "EvalFile",
 				"type" : "text",
-				"value" : "nn-baff1edbea57.nnue"
+				"value" : "nn-c721dfca8cd3.nnue"
+			},
+			{
+				"alias" : "",
+				"default" : "nn-baff1ede1f90.nnue",
+				"name" : "EvalFileSmall",
+				"type" : "text",
+				"value" : "nn-baff1ede1f90.nnue"
 			}
 		],
 		"protocol" : "uci",
