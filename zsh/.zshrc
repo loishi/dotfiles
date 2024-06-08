@@ -14,13 +14,13 @@ alias ll="lsd -al"
 alias npm="pnpm"
 alias la="lsd -a"
 alias nv="nvim"
-alias bu="brew update || true && brew upgrade || true && brew upgrade --cask --greedy-auto-updates --greedy-latest --no-quarantine || true && brew cleanup --prune=7 || true && brew autoremove || true && tldr -u || true && rustup update stable"
+alias bu="brew update || true && brew upgrade || true && brew upgrade neovim --fetch-HEAD || true && brew upgrade --cask --greedy-auto-updates --greedy-latest --no-quarantine || true && brew cleanup --prune=7 || true && brew autoremove || true && tldr -u || true && rustup update stable"
 alias gpp="g++ main.cc && ./a.out"
 alias aud="sudo launchctl stop com.apple.audio.coreaudiod && sudo launchctl start com.apple.audio.coreaudiod"
 alias acs="acc s -s -- -y"
 alias dt='time_stamp=$(date +%Y-%m-%d\ %H:%M:%S%z) && sed -i "" "s/date/$time_stamp/"'
 alias cac="cargo compete"
-alias sf="python3 ~/x/git/external-engine/example-provider.py --name M2 --token lip_SwDZuY2bmtNMgrfNw6oS --engine ~/x/git/Stockfish/src/stockfish --max-threads 8 --max-hash 15360 --default-depth 64 --keep-alive 10485760"
+alias sf="python3 ~/x/git/external-engine/example-provider.py --name M2 --token lip_SwDZuY2bmtNMgrfNw6oS --engine ~/x/git/Stockfish/src/stockfish --max-threads 8 --max-hash 4096 --default-depth 64 --keep-alive 10485760"
 
 autoload -U colors 
 colors
