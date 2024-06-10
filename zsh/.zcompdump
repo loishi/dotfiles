@@ -1,4 +1,4 @@
-#files: 991	version: 5.9
+#files: 990	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -466,7 +466,6 @@ _comps=(
 'extractres' '_psutils'
 'fakeroot' '_fakeroot'
 'false' '_nothing'
-'fast-theme' '_fast-theme'
 'fc' '_fc'
 'fc-list' '_xft_fonts'
 'fc-match' '_xft_fonts'
@@ -1698,7 +1697,6 @@ _comps=(
 'ytalk' '_other_accounts'
 'yum' '_yum'
 'yumdb' '_yum'
-'z' '__zoxide_z_complete'
 'zargs' '_zargs'
 'zcalc' '_zcalc'
 'zcat' '_zcat'
@@ -2059,7 +2057,7 @@ autoload -Uz _SUSEconfig __arguments _a2ps _a2utils _aap \
             _nix-collect-garbage _nix-common-options _nix-copy-closure _nix-env _nix-hash \
             _nix-install-package _nix-instantiate _nix-prefetch-url _nix-push _nix-shell \
             _nix-store _nixops _nixos-build-vms _nixos-container _nixos-generate-config \
-            _nixos-install _nixos-option _nixos-rebuild _nixos-version _fast-theme
+            _nixos-install _nixos-option _nixos-rebuild _nixos-version
 autoload -Uz +X _call_program
 
 typeset -gUa _comp_assocs
